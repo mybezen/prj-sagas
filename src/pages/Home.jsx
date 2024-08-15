@@ -1,4 +1,3 @@
-import { ButtonDefault } from '../components/Button';
 import { DrawerWithForm } from '../components/Drawer';
 import { FooterWithSocialLinks } from '../components/Footer';
 import { StickyNavbar } from '../components/Navbar';
