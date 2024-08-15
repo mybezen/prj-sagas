@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Drawer,
   Button,
@@ -6,22 +6,22 @@ import {
   IconButton,
   Input,
   Textarea,
-} from "@material-tailwind/react";
- 
+} from '@material-tailwind/react';
+
 export function DrawerWithForm() {
   const [open, setOpen] = React.useState(false);
   const openDrawer = () => setOpen(true);
   const closeDrawer = () => setOpen(false);
- 
+
   return (
     <React.Fragment>
       <Button onClick={openDrawer}>Open Drawer</Button>
-     <Drawer open={open} onClose={closeDrawer}>
+      <Drawer open={open} onClose={closeDrawer}>
         <div className="flex items-center justify-between px-4 pb-2">
-          <Typography variant="h5" color="blue-gray">
+          <Typography variant="h5" color="black">
             Contact Us
           </Typography>
-          <IconButton variant="text" color="blue-gray" onClick={closeDrawer}>
+          <IconButton variant="text" color="black" onClick={closeDrawer}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -44,7 +44,7 @@ export function DrawerWithForm() {
           </Typography>
         </div>
         <form className="flex flex-col gap-6 p-4">
-          <Typography variant="h6" color="blue-gray" className="-mb-3">
+          <Typography variant="h6" color="black" className="-mb-3">
             Your Email
           </Typography>
           <Input type="email" label="Email" />

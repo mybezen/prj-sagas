@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   Navbar,
   MobileNav,
@@ -6,24 +6,24 @@ import {
   Button,
   IconButton,
   Card,
-} from "@material-tailwind/react";
- 
+} from '@material-tailwind/react';
+
 export function StickyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
- 
+
   React.useEffect(() => {
     window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false),
+      'resize',
+      () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
- 
+
   const navList = (
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -33,7 +33,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -43,7 +43,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -53,7 +53,7 @@ export function StickyNavbar() {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="black"
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
@@ -62,11 +62,11 @@ export function StickyNavbar() {
       </Typography>
     </ul>
   );
- 
+
   return (
     <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll">
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
-        <div className="flex items-center justify-between text-blue-gray-900">
+        <div className="flex items-center justify-between text-black">
           <Typography
             as="a"
             href="#"
@@ -151,7 +151,7 @@ export function StickyNavbar() {
             src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2717&q=80"
           />
         </Card>
-        <Typography variant="h2" color="blue-gray" className="mb-2">
+        <Typography variant="h2" color="black" className="mb-2">
           What is Material Tailwind
         </Typography>
         <Typography color="gray" className="font-normal">
