@@ -6,10 +6,9 @@ import { StickyNavbar } from '../components/Navbar';
 function Home() {
   return (
     <div className="container">
-      <StickyNavbar />
-      <div className="mt-5">
-        <ButtonDefault />
-        <div className="mt-5 mb-5 items-center">
+      <div className="">
+        <div className="mb-5 items-center">
+          <StickyNavbar />
           <DrawerWithForm />
         </div>
       </div>
