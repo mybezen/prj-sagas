@@ -19,7 +19,7 @@ function Home() {
       <LandingPage />
       <StickyNavbar />
       <TextBlock />
-      <div className="container">
+      <div className="container flex flex-col items-center">
         <SimpleCard />
         <div
           className="mt-5 pb-10"
