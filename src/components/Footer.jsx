@@ -31,7 +31,7 @@ export function FooterWithSocialLinks() {
                 <Typography
                   variant="small"
                   color="black"
-                  className="mb-3 font-medium opacity-40"
+                  className="mb-3 git ium opacity-40"
                 >
                   {title}
                 </Typography>
@@ -41,7 +41,7 @@ export function FooterWithSocialLinks() {
                       as="a"
                       href="#"
                       color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-black-900"
+                      className="py-1.5 poppins-regular transition-colors hover:text-black-900"
                     >
                       {link}
                     </Typography>
@@ -54,7 +54,7 @@ export function FooterWithSocialLinks() {
         <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-black-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
-            className="mb-4 text-center font-normal text-black-900 md:mb-0"
+            className="mb-4 text-center poppins-regular text-black-900 md:mb-0"
           >
             &copy; {currentYear}{" "}
             <a href="https://material-tailwind.com/">VitalMotion</a>. All
