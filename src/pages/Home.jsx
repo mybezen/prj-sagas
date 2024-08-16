@@ -1,11 +1,11 @@
 import { FooterWithSocialLinks } from "../components/Footer";
 import { StickyNavbar } from "../components/Navbar";
-import { AccordionCustomAnimation } from "../components/Accordion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import LandingPage from "../sections/LandingPage";
 import TextBlock from "../sections/TextBlock";
+import { SimpleCard } from "../components/Card";
 
 function Home() {
   useEffect(() => {
@@ -20,7 +20,7 @@ function Home() {
       <StickyNavbar />
       <TextBlock />
       <div className="container">
-        <AccordionCustomAnimation />
+        <SimpleCard />
         <div
           className="mt-5 pb-10"
           data-aos="fade-up"
