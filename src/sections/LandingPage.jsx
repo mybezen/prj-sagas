@@ -26,12 +26,7 @@ function LandingPage() {
           </mask>
         </defs>
       </svg>
-      <div className="w-full h-screen flex lg:flex-row flex-col">
-        <div className="w-full lg:w-1/2 bg-slate-200 h-full flex justify-center items-center">
-          <h1>Lorem ipsum dolor sit amet.</h1>
-        </div>
-        <div className="w-full lg:w-1/2 h-full"></div>
-      </div>
+      <div className="w-full h-screen"></div>
     </div>
   );
 }

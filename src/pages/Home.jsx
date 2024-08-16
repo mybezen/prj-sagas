@@ -4,6 +4,7 @@ import { AccordionCustomAnimation } from "../components/Accordion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import LandingPage from "../sections/LandingPage";
 
 function Home() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function Home() {
   }, []);
   return (
     <div className="">
+      <LandingPage />
       <StickyNavbar />
       <div className="container">
         <AccordionCustomAnimation />
