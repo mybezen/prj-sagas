@@ -1,12 +1,19 @@
 import { FooterWithSocialLinks } from "../components/Footer";
 import { StickyNavbar } from "../components/Navbar";
 import { AccordionCustomAnimation } from "../components/Accordion";
-import LandingPage from "../sections/LandingPage";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 500,
+    });
+  }, []);
   return (
     <div className="">
-      <LandingPage />
       <StickyNavbar />
       <div className="container">
         <AccordionCustomAnimation />
@@ -120,8 +127,6 @@ function Home() {
         </div>
       </div>
       <FooterWithSocialLinks />
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>AOS.init();</script>
     </div>
   );
 }

@@ -18,31 +18,25 @@ export function AccordionCustomAnimation() {
   return (
     <>
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
-        <AccordionHeader onClick={() => handleOpen(1)}>What is Material Tailwind?</AccordionHeader>
+        <AccordionHeader onClick={() => handleOpen(1)}>Kenapa Sih Harus Sehat Secara Fisik ?</AccordionHeader>
         <AccordionBody>
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+          Karena ...
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          How to use Material Tailwind?
+          Bagaimana caranya agar tubuh kita selalu sehat secara fisik ?
         </AccordionHeader>
         <AccordionBody>
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+          Kita Harus ...
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          What can I do with Material Tailwind?
+          Apa yang bisa kita lakukan agar terhindar dari penyakit fisik ?
         </AccordionHeader>
         <AccordionBody>
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+          Kita harus ...
         </AccordionBody>
       </Accordion>
     </>
