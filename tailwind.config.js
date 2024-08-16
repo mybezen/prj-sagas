@@ -8,12 +8,11 @@ export default {
   ],
   theme: {
     extend: {
-      container : {
-        padding : "16px",
-        center : true,
-      }
+      container: {
+        padding: "16px",
+        center: true,
+      },
     },
   },
   plugins: [],
-}
-
+};
