@@ -1,23 +1,26 @@
 import { FooterWithSocialLinks } from "../components/Footer";
 import { StickyNavbar } from "../components/Navbar";
 import { AccordionCustomAnimation } from "../components/Accordion";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(()=> {
+    AOS.init({
+      once: true,
+      duration : 500,
+    })
+  }, [])
   return (
     <div className="">
-      <head>
-        <link
-          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-          rel="stylesheet"
-        ></link>
-      </head>
       <StickyNavbar />
       <div className="container">
         <AccordionCustomAnimation />
         <div
           className="mt-5 pb-10"
           data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
+     data-aos-anchor-placement="top-bottom"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           totam corrupti ea quia unde delectus dolores quod hic ex distinctio.
@@ -124,8 +127,6 @@ function Home() {
         </div>
       </div>
       <FooterWithSocialLinks />
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>AOS.init();</script>
     </div>
   );
 }
