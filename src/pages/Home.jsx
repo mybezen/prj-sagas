@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import LandingPage from "../sections/LandingPage";
+import TextBlock from "../sections/TextBlock";
 
 function Home() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function Home() {
   return (
     <div className="">
       <LandingPage />
+      <TextBlock />
       <StickyNavbar />
       <div className="container">
         <AccordionCustomAnimation />
