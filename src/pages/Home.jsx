@@ -17,8 +17,8 @@ function Home() {
   return (
     <div className="">
       <LandingPage />
-      <TextBlock />
       <StickyNavbar />
+      <TextBlock />
       <div className="container">
         <AccordionCustomAnimation />
         <div

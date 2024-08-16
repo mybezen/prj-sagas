@@ -4,7 +4,7 @@ function TextBlock() {
     return (
         <div id="textblock">
             <div id="textblock-container">
-                <h1 id="textblock-title">What is Firewatch?</h1>
+                <h1 id="textblock-title">What is VitalMotion?</h1>
                 <p id="textblock-content">
                 VitalMotion<br/><br/>
                 Kami Adalah<br/><br/>

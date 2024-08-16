@@ -1,12 +1,12 @@
 #textblock {
     background-color: #ffffff;
-    height: 100vh;
+    height: 80vh;
   }
   
   #textblock-container {
     width: 50%;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 12%;
   }
   
   #textblock-title {
