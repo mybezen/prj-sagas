@@ -1,13 +1,24 @@
-import { DrawerWithForm } from "../components/Drawer";
 import { FooterWithSocialLinks } from "../components/Footer";
 import { StickyNavbar } from "../components/Navbar";
+import { AccordionCustomAnimation } from "../components/Accordion";
 
 function Home() {
   return (
     <div className="">
+      <head>
+        <link
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet"
+        ></link>
+      </head>
       <StickyNavbar />
       <div className="container">
-        <div className="pb-10">
+        <AccordionCustomAnimation />
+        <div
+          className="mt-5 pb-10"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           totam corrupti ea quia unde delectus dolores quod hic ex distinctio.
           Natus doloremque recusandae ipsa quo a aliquam sed deserunt quos
@@ -111,9 +122,10 @@ function Home() {
           sunt, excepturi ratione laudantium quibusdam id totam est minus rerum,
           ipsam distinctio vero unde eius!
         </div>
-        <DrawerWithForm />
-        <FooterWithSocialLinks />
       </div>
+      <FooterWithSocialLinks />
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>AOS.init();</script>
     </div>
   );
 }

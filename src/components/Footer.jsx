@@ -1,17 +1,17 @@
-import { Typography } from '@material-tailwind/react';
+import { Typography } from "@material-tailwind/react";
 
 const LINKS = [
   {
-    title: 'Product',
-    items: ['Overview', 'Features', 'Solutions', 'Tutorials'],
+    title: "Product",
+    items: ["Overview", "Features", "Solutions", "Tutorials"],
   },
   {
-    title: 'Company',
-    items: ['About us', 'Careers', 'Press', 'News'],
+    title: "Company",
+    items: ["About us", "Careers", "Press", "News"],
   },
   {
-    title: 'Resource',
-    items: ['Blog', 'Newsletter', 'Events', 'Help center'],
+    title: "Resource",
+    items: ["Blog", "Newsletter", "Events", "Help center"],
   },
 ];
 
@@ -20,7 +20,7 @@ const currentYear = new Date().getFullYear();
 export function FooterWithSocialLinks() {
   return (
     <footer className="relative w-full">
-      <div className="mx-auto w-full max-w-7xl px-8">
+      <div className="pt-12 mx-auto w-full max-w-full px-8 bg-gray-400">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6">
             Material Tailwind
@@ -56,7 +56,7 @@ export function FooterWithSocialLinks() {
             variant="small"
             className="mb-4 text-center font-normal text-black-900 md:mb-0"
           >
-            &copy; {currentYear}{' '}
+            &copy; {currentYear}{" "}
             <a href="https://material-tailwind.com/">Material Tailwind</a>. All
             Rights Reserved.
           </Typography>
