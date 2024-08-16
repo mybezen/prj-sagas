@@ -1,16 +1,12 @@
 import { FooterWithSocialLinks } from "../components/Footer";
 import { StickyNavbar } from "../components/Navbar";
 import { AccordionCustomAnimation } from "../components/Accordion";
+import LandingPage from "../sections/LandingPage";
 
 function Home() {
   return (
     <div className="">
-      <head>
-        <link
-          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-          rel="stylesheet"
-        ></link>
-      </head>
+      <LandingPage />
       <StickyNavbar />
       <div className="container">
         <AccordionCustomAnimation />

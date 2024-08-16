@@ -66,12 +66,8 @@ export function StickyNavbar() {
   return (
     <Navbar className="fixed lg:sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
       <div className="flex items-center justify-between text-black">
-        <Typography
-          as="a"
-          href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium"
-        >
-          Material Tailwind
+        <Typography className="mr-4 cursor-default py-1.5 font-semibold text-2xl">
+          VitalMotion
         </Typography>
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
