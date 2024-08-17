@@ -1,7 +1,17 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function LandingPage() {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      duration: 500,
+    })
+    AOS.refresh() ;
+  }, []);
   return (
-    <div className="">
+    <div className="aos-item" data-aos="fade-up" data-aos-duration="1200" data-aos-mirror="true">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"

@@ -10,8 +10,9 @@ import { SimpleCard } from "../components/Card";
 function Home() {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 500,
+      mirror: true
     });
   }, []);
   return (
@@ -19,12 +20,11 @@ function Home() {
       <LandingPage />
       <StickyNavbar />
       <TextBlock />
-      <div className="container flex flex-col items-center">
+      <div className="container flex flex-col items-center" data-aos="fade-up"
+     data-aos-duration="3000">
         <SimpleCard />
         <div
           className="mt-5 pb-10"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
           totam corrupti ea quia unde delectus dolores quod hic ex distinctio.
