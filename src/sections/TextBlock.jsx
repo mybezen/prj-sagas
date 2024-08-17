@@ -14,8 +14,11 @@ function TextBlock() {
       }, []);
     return (
         <div id="textblock">
-            <div className='aos-item' id="textblock-container" data-aos="zoom-out"  data-aos-anchor-placement="top-center">
-                <h1 id="textblock-title text-9xl font-extrabold">What is VitalMotion?</h1>
+            <div className='aos-item' id="textblock-container" data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-sine"
+            data-aos-anchor-placement="top-center">
+                <h1 className='text-9xl font-extrabold' id="textblock-title">What is VitalMotion?</h1>
                 <p id="textblock-content">
                 VitalMotion<br/><br/>
                 Kami Adalah<br/><br/>
