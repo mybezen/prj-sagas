@@ -51,7 +51,7 @@ export function FooterWithSocialLinks() {
             ))}
           </div>
           {/* Logo/Icon */}
-          <div className="flex gap-4 text-black-900 sm:justify-center">
+          <div className="flex gap-4 text-black-900 ">
             <Typography
               as="a"
               href="#"
