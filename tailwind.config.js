@@ -12,6 +12,11 @@ export default {
         padding: "16px",
         center: true,
       },
+      colors: {
+        'dark-gr': '#05411A',
+        'lime-gr': '#439842',
+        
+      }
     },
   },
   plugins: [],
