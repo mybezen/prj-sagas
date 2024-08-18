@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import LandingPage from "../sections/LandingPage";
 import TextBlock from "../sections/TextBlock";
 import { SimpleCard } from "../components/Card";
+import IconLabelTabs from "../components/Tabs";
 
 function Home() {
   useEffect(() => {
@@ -19,115 +20,23 @@ function Home() {
     <div className="">
       <LandingPage />
       <StickyNavbar />
-      <TextBlock />
-      <div className="container flex flex-col items-center" data-aos="fade-up"
+      <div className="container items-center bg-green-900"  data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-sine"
+            data-aos-anchor-placement="top-center">
+        <TextBlock />
+      </div>
+      <div className="container flex flex-col items-center bg-stone-700 " data-aos="fade-up"
      data-aos-duration="3000">
         <SimpleCard />
         <div
           className="mt-5 pb-10"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          totam corrupti ea quia unde delectus dolores quod hic ex distinctio.
-          Natus doloremque recusandae ipsa quo a aliquam sed deserunt quos
-          voluptas? Ullam temporibus nostrum quam modi sit, expedita cumque
-          quidem ducimus praesentium, qui, illum harum. Dolor reprehenderit quis
-          laboriosam. Iusto earum eaque tenetur amet porro. Saepe voluptas neque
-          rem officia molestias animi accusamus ex sed sunt, excepturi ratione
-          laudantium quibusdam id totam est minus rerum, ipsam distinctio vero
-          unde eius! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatem totam corrupti ea quia unde delectus dolores quod hic ex
-          distinctio. Natus doloremque recusandae ipsa quo a aliquam sed
-          deserunt quos voluptas? Ullam temporibus nostrum quam modi sit,
-          expedita cumque quidem ducimus praesentium, qui, illum harum. Dolor
-          reprehenderit quis laboriosam. Iusto earum eaque tenetur amet porro.
-          Saepe voluptas neque rem officia molestias animi accusamus ex sed
-          sunt, excepturi ratione laudantium quibusdam id totam est minus rerum,
-          ipsam distinctio vero unde eius! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem totam corrupti ea quia unde
-          delectus dolores quod hic ex distinctio. Natus doloremque recusandae
-          ipsa quo a aliquam sed deserunt quos voluptas? Ullam temporibus
-          nostrum quam modi sit, expedita cumque quidem ducimus praesentium,
-          qui, illum harum. Dolor reprehenderit quis laboriosam. Iusto earum
-          eaque tenetur amet porro. Saepe voluptas neque rem officia molestias
-          animi accusamus ex sed sunt, excepturi ratione laudantium quibusdam id
-          totam est minus rerum, ipsam distinctio vero unde eius! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Voluptatem totam corrupti
-          ea quia unde delectus dolores quod hic ex distinctio. Natus doloremque
-          recusandae ipsa quo a aliquam sed deserunt quos voluptas? Ullam
-          temporibus nostrum quam modi sit, expedita cumque quidem ducimus
-          praesentium, qui, illum harum. Dolor reprehenderit quis laboriosam.
-          Iusto earum eaque tenetur amet porro. Saepe voluptas neque rem officia
-          molestias animi accusamus ex sed sunt, excepturi ratione laudantium
-          quibusdam id totam est minus rerum, ipsam distinctio vero unde eius!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          totam corrupti ea quia unde delectus dolores quod hic ex distinctio.
-          Natus doloremque recusandae ipsa quo a aliquam sed deserunt quos
-          voluptas? Ullam temporibus nostrum quam modi sit, expedita cumque
-          quidem ducimus praesentium, qui, illum harum. Dolor reprehenderit quis
-          laboriosam. Iusto earum eaque tenetur amet porro. Saepe voluptas neque
-          rem officia molestias animi accusamus ex sed sunt, excepturi ratione
-          laudantium quibusdam id totam est minus rerum, ipsam distinctio vero
-          unde eius! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatem totam corrupti ea quia unde delectus dolores quod hic ex
-          distinctio. Natus doloremque recusandae ipsa quo a aliquam sed
-          deserunt quos voluptas? Ullam temporibus nostrum quam modi sit,
-          expedita cumque quidem ducimus praesentium, qui, illum harum. Dolor
-          reprehenderit quis laboriosam. Iusto earum eaque tenetur amet porro.
-          Saepe voluptas neque rem officia molestias animi accusamus ex sed
-          sunt, excepturi ratione laudantium quibusdam id totam est minus rerum,
-          ipsam distinctio vero unde eius!
+        <IconLabelTabs />
+            Materi 1
         </div>
         <div className="pb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          totam corrupti ea quia unde delectus dolores quod hic ex distinctio.
-          Natus doloremque recusandae ipsa quo a aliquam sed deserunt quos
-          voluptas? Ullam temporibus nostrum quam modi sit, expedita cumque
-          quidem ducimus praesentium, qui, illum harum. Dolor reprehenderit quis
-          laboriosam. Iusto earum eaque tenetur amet porro. Saepe voluptas neque
-          rem officia molestias animi accusamus ex sed sunt, excepturi ratione
-          laudantium quibusdam id totam est minus rerum, ipsam distinctio vero
-          unde eius! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatem totam corrupti ea quia unde delectus dolores quod hic ex
-          distinctio. Natus doloremque recusandae ipsa quo a aliquam sed
-          deserunt quos voluptas? Ullam temporibus nostrum quam modi sit,
-          expedita cumque quidem ducimus praesentium, qui, illum harum. Dolor
-          reprehenderit quis laboriosam. Iusto earum eaque tenetur amet porro.
-          Saepe voluptas neque rem officia molestias animi accusamus ex sed
-          sunt, excepturi ratione laudantium quibusdam id totam est minus rerum,
-          ipsam distinctio vero unde eius! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Voluptatem totam corrupti ea quia unde
-          delectus dolores quod hic ex distinctio. Natus doloremque recusandae
-          ipsa quo a aliquam sed deserunt quos voluptas? Ullam temporibus
-          nostrum quam modi sit, expedita cumque quidem ducimus praesentium,
-          qui, illum harum. Dolor reprehenderit quis laboriosam. Iusto earum
-          eaque tenetur amet porro. Saepe voluptas neque rem officia molestias
-          animi accusamus ex sed sunt, excepturi ratione laudantium quibusdam id
-          totam est minus rerum, ipsam distinctio vero unde eius! Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Voluptatem totam corrupti
-          ea quia unde delectus dolores quod hic ex distinctio. Natus doloremque
-          recusandae ipsa quo a aliquam sed deserunt quos voluptas? Ullam
-          temporibus nostrum quam modi sit, expedita cumque quidem ducimus
-          praesentium, qui, illum harum. Dolor reprehenderit quis laboriosam.
-          Iusto earum eaque tenetur amet porro. Saepe voluptas neque rem officia
-          molestias animi accusamus ex sed sunt, excepturi ratione laudantium
-          quibusdam id totam est minus rerum, ipsam distinctio vero unde eius!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          totam corrupti ea quia unde delectus dolores quod hic ex distinctio.
-          Natus doloremque recusandae ipsa quo a aliquam sed deserunt quos
-          voluptas? Ullam temporibus nostrum quam modi sit, expedita cumque
-          quidem ducimus praesentium, qui, illum harum. Dolor reprehenderit quis
-          laboriosam. Iusto earum eaque tenetur amet porro. Saepe voluptas neque
-          rem officia molestias animi accusamus ex sed sunt, excepturi ratione
-          laudantium quibusdam id totam est minus rerum, ipsam distinctio vero
-          unde eius! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatem totam corrupti ea quia unde delectus dolores quod hic ex
-          distinctio. Natus doloremque recusandae ipsa quo a aliquam sed
-          deserunt quos voluptas? Ullam temporibus nostrum quam modi sit,
-          expedita cumque quidem ducimus praesentium, qui, illum harum. Dolor
-          reprehenderit quis laboriosam. Iusto earum eaque tenetur amet porro.
-          Saepe voluptas neque rem officia molestias animi accusamus ex sed
-          sunt, excepturi ratione laudantium quibusdam id totam est minus rerum,
-          ipsam distinctio vero unde eius!
+            Materi 2
         </div>
       </div>
       <FooterWithSocialLinks />

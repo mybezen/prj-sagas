@@ -14,16 +14,10 @@ function TextBlock() {
       }, []);
     return (
         <div id="textblock">
-            <div className='aos-item' id="textblock-container" data-aos="fade-right"
-            data-aos-duration="1200"
-            data-aos-easing="ease-in-sine"
-            data-aos-anchor-placement="top-center">
-                <h1 className='text-9xl font-extrabold' id="textblock-title">What is VitalMotion?</h1>
-                <p id="textblock-content">
-                VitalMotion<br/><br/>
-                Kami Adalah<br/><br/>
-                Tim<br/><br/>
-                Vital Motion
+            <div className='aos-item' id="textblock-container">
+                <h1 className='text-9xl poppins-bold' id="textblock-title">What is VitalMotion?</h1>
+                <p id="textblock-content" className='poppins-semibold'>
+                VitalMotion adalah website yang menyediakan informasi tentang pentingnya aktivitas fisik untuk kesehatan tubuh, kami menjelaskan tentang bahaya nya jika kita tidak melakukan aktivitas fisik,serta cara mencegah nya
                 </p>
             </div>
 

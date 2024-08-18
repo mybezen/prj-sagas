@@ -3,7 +3,7 @@ import { AccordionCustomAnimation } from "./Accordion";
 
 export function SimpleCard() {
   return (
-    <Card className="mt-6 w-6/12">
+    <Card className="w-50%">
       <CardBody>
         <AccordionCustomAnimation />
       </CardBody>
