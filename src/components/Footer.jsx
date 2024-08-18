@@ -6,12 +6,12 @@ const LINKS = [
     items: ["Overview", "About Us", "Penyakit", "Data"],
   },
   {
-    title: "Company",
+    title: "Member",
     items: ["Sultan", "Amri", "Sayid", "Bintang", "Fadhlan"],
   },
   {
     title: "Credit",
-    items: ["Freepik", "Newsletter", "Events", "Help center"],
+    items: ["Freepik"],
   },
 ];
 
