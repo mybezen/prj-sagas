@@ -2,7 +2,8 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { Box } from '@mui/material';
-import './Tabs.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 //Import custom icon
 import ObesityIcon from '../assets/obesit.png';
@@ -15,8 +16,17 @@ import KidneyFailureIconn from '../assets/kidney_failure2.jpg';
 export default function IconLabelTabs() {
     const [value, setValue] = React.useState(0);
 
+    React.useEffect(() => {
+        AOS.init({
+            duration: 800, // Durasi animasi dalam ms
+            easing: 'ease-in-out', // Opsi easing
+            once: true, // Mengaktifkan animasi hanya sekali saat pertama kali elemen muncul
+        });
+    }, []);
+
     const handleChange = (event, newValue) => {
         setValue(newValue);
+        AOS.refresh(); // Memperbarui AOS setiap kali tab beruba
     };
 
     return (
@@ -103,7 +113,8 @@ export default function IconLabelTabs() {
 
                 <Box sx={{ padding: '20px', marginTop: '20px', bgcolor: '#ffffff', borderRadius: '8px', minHeight: '200px', width: '100%' }}>
                     {value === 0 && (
-                        <Box sx={{ display: 'flex' }}>
+                        /* Obesitas */
+                        <Box sx={{ display: 'flex' }} data-aos="fade-right">
                             {/* Text Column */}
                             <Box sx={{ flex: 1, paddingRight: '20px' }}>
                                 <h2 className='poppins-bold'>Pengertian Obesitas</h2>
@@ -127,9 +138,10 @@ export default function IconLabelTabs() {
                         </Box>
                     )}
                     {value === 1 && (
-                        <Box sx={{ display: 'flex' }}>
+                        /* Stroke */
+                        <Box sx={{ display: 'flex' }} data-aos="zoom-in" >
                             {/* Text Column */}
-                            <Box sx={{ flex: 1, paddingRight: '20px' }}>
+                            <Box sx={{ flex: 1, paddingRight: '20px'  }}>
                                 <h2 className='poppins-bold'>Pengertian Stroke</h2>
                                 <p className='poppins-regular'>Transient Ischemic Attack (TIA) atau lebih dikenal dengan stroke ringan adalah serangan yang muncul secara tiba-tiba berupa gejala stroke, tetapi sifatnya sementara atau dalam waktu singkat. Kebanyakan stroke ringan adalah kondisi yang akan bertahan selama beberapa menit hingga jam, kemudian mereda dalam waktu 24 jam</p>
                                 <h3 className='poppins-bold'>Penyebab Stroke</h3>
@@ -150,7 +162,8 @@ export default function IconLabelTabs() {
                         </Box>
                     )}
                     {value === 2 && (
-                        <Box sx={{ display: 'flex' }}>
+                        /* Hipertensi */
+                        <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                             {/* Text Column */}
                             <Box sx={{ flex: 1, paddingRight: '20px' }}>
                                 <h2>Pengertian Hipertensi</h2>
@@ -173,7 +186,7 @@ export default function IconLabelTabs() {
                         </Box>
                     )}
                     {value === 3 && (
-                        <Box sx={{ display: 'flex' }}>
+                        <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                             {/* Text Column */}
                             <Box sx={{ flex: 1, paddingRight: '20px' }}>
                                 <h2>Pengertian Gagal Ginjal</h2>
@@ -196,7 +209,7 @@ export default function IconLabelTabs() {
                         </Box>
                     )}
                     {value === 4 && (
-                        <Box sx={{ display: 'flex' }}>
+                        <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                             {/* Text Column */}
                             <Box sx={{ flex: 1, paddingRight: '20px' }}>
                                 <h2>Pengertian Osteoporosis</h2>
