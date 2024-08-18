@@ -2,16 +2,16 @@ import { Typography } from "@material-tailwind/react";
 
 const LINKS = [
   {
-    title: "Product",
-    items: ["Overview", "Features", "Solutions", "Tutorials"],
+    title: "Daftar Konten",
+    items: ["Overview", "About Us", "Penyakit", "Data"],
   },
   {
     title: "Company",
-    items: ["About us", "Careers", "Press", "News"],
+    items: ["Sultan", "Amri", "Sayid", "Bintang", "Fadhlan"],
   },
   {
-    title: "Resource",
-    items: ["Blog", "Newsletter", "Events", "Help center"],
+    title: "Credit",
+    items: ["Freepik", "Newsletter", "Events", "Help center"],
   },
 ];
 
@@ -22,7 +22,7 @@ export function FooterWithSocialLinks() {
     <footer className="relative w-full">
       <div className="pt-12 mx-auto w-full max-w-full px-8 bg-gray-400">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <Typography variant="h5" className="mb-6">
+          <Typography variant="h5" className="mb-6 poppins-semibold-italic">
             VitalMotion
           </Typography>
           <div className="grid grid-cols-3 justify-between gap-4">
@@ -31,7 +31,7 @@ export function FooterWithSocialLinks() {
                 <Typography
                   variant="small"
                   color="black"
-                  className="mb-3 git ium opacity-40"
+                  className="mb-3 git ium opacity-40 poppins-bold"
                 >
                   {title}
                 </Typography>
@@ -40,8 +40,8 @@ export function FooterWithSocialLinks() {
                     <Typography
                       as="a"
                       href="#"
-                      color="gray"
-                      className="py-1.5 poppins-regular transition-colors hover:text-black-900"
+                      color="black"
+                      className="py-1.5 poppins-regular transition-colors hover:text-green-900"
                     >
                       {link}
                     </Typography>
@@ -50,16 +50,7 @@ export function FooterWithSocialLinks() {
               </ul>
             ))}
           </div>
-        </div>
-        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-black-50 py-4 md:flex-row md:justify-between">
-          <Typography
-            variant="small"
-            className="mb-4 text-center poppins-regular text-black-900 md:mb-0"
-          >
-            &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">VitalMotion</a>. All
-            Rights Reserved.
-          </Typography>
+          {/* Logo/Icon */}
           <div className="flex gap-4 text-black-900 sm:justify-center">
             <Typography
               as="a"
@@ -148,6 +139,17 @@ export function FooterWithSocialLinks() {
               </svg>
             </Typography>
           </div>
+        </div>
+        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-black-50 py-4 md:flex-row md:justify-between">
+          <Typography
+            variant="small"
+            className="mb-4 text-center poppins-regular text-black-900 md:mb-0"
+          >
+            &copy; {currentYear}{" "}
+            <a href="https://material-tailwind.com/">VitalMotion</a>. All
+            Rights Reserved.
+          </Typography>
+          
         </div>
       </div>
     </footer>
