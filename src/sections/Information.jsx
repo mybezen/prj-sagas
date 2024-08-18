@@ -1,0 +1,26 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import { SimpleCard } from '../components/Card';
+
+function Information() {
+  useEffect(() => {
+    AOS.init({
+      once: false,
+      duration: 500,
+    });
+    AOS.refresh();
+  }, []);
+
+  return (
+    <div
+      className="container flex flex-col items-center bg-slate-200 my-4 pt-24"
+      data-aos="fade-up"
+      data-aos-duration="700"
+    >
+      <SimpleCard />;
+    </div>
+  );
+}
+
+export default Information;
