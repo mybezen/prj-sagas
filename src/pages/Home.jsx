@@ -8,6 +8,7 @@ import TextBlock from '../sections/TextBlock';
 import Information from '../sections/Information';
 import IconLabelTabs from '../components/Tabs';
 import CustomLabels from '../components/Charts';
+import Introduction from '../sections/Introduction';
 
 function Home() {
   useEffect(() => {
@@ -19,17 +20,18 @@ function Home() {
   }, []);
 
   return (
-    <div className=''>
+    <div className="">
       <StickyNavbar />
 
-    <div className="scrollable-container">
-      <LandingPage />
-      <TextBlock />
-      <IconLabelTabs />
-      <Information />
-      <CustomLabels />
-      <FooterWithSocialLinks />
-    </div>
+      <div className="scrollable-container">
+        <LandingPage />
+        <TextBlock />
+        <Introduction />
+        <IconLabelTabs />
+        <Information />
+        <CustomLabels />
+        <FooterWithSocialLinks />
+      </div>
     </div>
   );
 }
