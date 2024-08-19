@@ -14,7 +14,7 @@ function TextBlock() {
   }, []);
   return (
     <div
-      className="bg-gradient-to-b from-gd-db to-gd-lb w-full min-h-screen flex lg:flex-row flex-col-reverse  poppins-regular"
+      className="w-full min-h-screen flex lg:flex-row flex-col-reverse  poppins-regular"
       id="textblock-container"
       data-aos="fade-up"
       data-aos-duration="700"
@@ -22,7 +22,7 @@ function TextBlock() {
     >
       <div className="lg:w-1/2 flex justify-center items-center pb-24 lg:pb-0">
         <div className="lg:w-10/12 w-11/12">
-          <h1 className="lg:text-5xl text-3xl poppins-bold mb-3 text-white">
+          <h1 className="lg:text-5xl text-3xl poppins-bold mb-3 text-black">
             What is{' '}
             <span className="text-lune-blue">
               Vital<span className="text-gr-blue">Motion</span>
@@ -33,7 +33,7 @@ function TextBlock() {
             <span className="text-lune-blue poppins-bold">
               Vital<span className="text-gr-blue poppins-bold">Motion </span>
             </span>
-            <span className='text-white'>
+            <span className='text-black'>
             aktivitas fisik untuk kesehatan tubuh, risiko akibat kurangnya
             aktivitas, dan cara pencegahannya.
               adalah situs web yang memberikan informasi tentang pentingnya </span>

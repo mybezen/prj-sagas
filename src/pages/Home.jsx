@@ -19,8 +19,9 @@ function Home() {
   }, []);
 
   return (
-    <div>
+    <div className=''>
       <StickyNavbar />
+
     <div className="scrollable-container">
       <LandingPage />
       <TextBlock />

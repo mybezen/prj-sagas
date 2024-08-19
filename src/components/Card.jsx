@@ -1,7 +1,16 @@
 import { Card, CardBody } from '@material-tailwind/react';
-import { AccordionCustomAnimation } from './Accordion';
+import { AccordionCustomAnimation, AccordionPencegahan } from './Accordion';
 
-export function SimpleCard() {
+export function PencegahanCard() {
+  return (
+    <Card className="w-9/12">
+      <CardBody>
+        <AccordionPencegahan />
+      </CardBody>
+    </Card>
+  );
+}
+export function StudCard() {
   return (
     <Card className="w-9/12">
       <CardBody>
