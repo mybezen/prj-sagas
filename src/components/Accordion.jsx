@@ -101,14 +101,11 @@ function AccordionPencegahan1() {
     <>
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-          Rutin Berolahraga
+        Aktivitas fisik ringan
         </AccordionHeader>
         <AccordionBody>
           <p className="text-base poppins-semibold">
-            <ul className="text-base poppins-semibold">
-              <li>1. Melakukan olahraga secara teratur membantu menjaga berat badan ideal, mengurangi risiko obesitas, hipertensi, diabetes, stroke, dan osteoporosis.</li>
-              <li>2. Pilih aktivitas yang menyenangkan dan sesuai dengan kondisi fisik Anda, seperti berjalan, berenang, bersepeda, atau yoga.</li>
-            </ul>
+          Berjalan santai di rumah, kantor, atau pusat perbelanjaan, duduk bekerja di depan komputer, membaca, menulis, menyetir, mengoperasikan mesin dengan posisi duduk atau berdiri, berdiri melakukan pekerjaan rumah tangga ringan seperti mencuci piring, setrika, memasak, menyapu, mengepel lantai, menjahit
           </p>
         </AccordionBody>
       </Accordion>
@@ -124,7 +121,7 @@ function AccordionPencegahan2() {
   return (
     <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
       <AccordionHeader onClick={() => handleOpen(1)}>
-        Olahraga ringan
+      Olahraga ringan
       </AccordionHeader>
       <AccordionBody>
         <p className="text-base poppins-semibold">
@@ -143,14 +140,11 @@ function AccordionPencegahan3() {
   return (
     <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
       <AccordionHeader onClick={() => handleOpen(1)}>
-        Menghindari Kebiasaan Buruk
+        Menjaga Pola Makan
       </AccordionHeader>
       <AccordionBody>
         <p className="text-base poppins-semibold">
-          <ul className="text-base poppins-semibold">
-            <li>1. Berhenti merokok dan mengurangi konsumsi alkohol dapat mencegah berbagai penyakit, termasuk stroke, hipertensi, dan kanker.</li>
-            <li>2. Hindari penggunaan obat tanpa resep dokter, terutama obat kortikosteroid, yang dapat mempengaruhi kesehatan tulang.</li>
-          </ul>
+        Untuk menjaga pola makan sehat, rencanakan menu mingguan, pilih makanan bergizi, dan perhatikan ukuran porsi. Minum cukup air dan makan secara teratur, sesuai sinyal tubuh. Nikmati makanan dengan tenang, pilih camilan sehat, dan gabungkan dengan aktivitas fisik. Sesekali, beri kelonggaran pada diri sendiri untuk membuat pola makan lebih mudah dipertahankan.
         </p>
       </AccordionBody>
     </Accordion>
@@ -166,41 +160,16 @@ function AccordionPencegahan4() {
     <>
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          Mengonsumsi Makanan Sehat dan Bergizi
+        Menjaga Pola Tidur
         </AccordionHeader>
         <AccordionBody>
           <p className="text-base poppins-semibold">Yaitu dengan cara:</p>
-          <ul className="text-base poppins-semibold">
-            <li>1. Makan makanan dengan gizi seimbang, kaya serat, buah-buahan, sayuran, dan rendah lemak serta gula, membantu mencegah obesitas, diabetes, hipertensi, dan osteoporosis.</li>
-            <li>2. Batasi konsumsi makanan tinggi natrium, lemak jenuh, dan kolesterol, serta hindari konsumsi gula berlebih.</li>
-          </ul>
+          Untuk menjaga pola tidur yang baik, tidurlah dan bangun pada waktu yang sama setiap hari, buat rutinitas malam yang menenangkan, dan hindari layar elektronik sebelum tidur. Atur kamar tidur agar nyaman, batasi kafein dan alkohol, dan lakukan aktivitas fisik secara teratur. Kelola stres dan hindari makan berat sebelum tidur.
         </AccordionBody>
       </Accordion>
     </>
   );
 }
 
-function AccordionPencegahan5() {
-  const [open, setOpen] = React.useState(0);
 
-  const handleOpen = (value) => setOpen(open === value ? 0 : value);
-
-  return (
-    <>
-      <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
-        <AccordionHeader onClick={() => handleOpen(2)}>
-          Mengonsumsi Makanan Sehat dan Bergizi
-        </AccordionHeader>
-        <AccordionBody>
-          <p className="text-base poppins-semibold">Yaitu dengan cara:</p>
-          <ul className="text-base poppins-semibold">
-            <li>1. Makan makanan dengan gizi seimbang, kaya serat, buah-buahan, sayuran, dan rendah lemak serta gula, membantu mencegah obesitas, diabetes, hipertensi, dan osteoporosis.</li>
-            <li>2. Batasi konsumsi makanan tinggi natrium, lemak jenuh, dan kolesterol, serta hindari konsumsi gula berlebih.</li>
-          </ul>
-        </AccordionBody>
-      </Accordion>
-    </>
-  );
-}
-
-export { AccordionCustomAnimation, AccordionPencegahan1, AccordionPencegahan2, AccordionPencegahan3, AccordionPencegahan4, AccordionPencegahan5 };
+export { AccordionCustomAnimation, AccordionPencegahan1, AccordionPencegahan2, AccordionPencegahan3, AccordionPencegahan4 };
