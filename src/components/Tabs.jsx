@@ -9,9 +9,8 @@ import AOS from 'aos';
 import ObesityIcon from '../assets/obesit.png';
 import StrokeIcon from '../assets/stroke.png';
 import HypertensionIcon from '../assets/hypertension.png';
-import KidneyFailureIcon from '../assets/kidney_failure.png';
 import OsteoIcon from '../assets/osteoporosis.png';
-import KidneyFailureIconn from '../assets/kidney_failure2.jpg';
+import KidneyFailureIcon from '../assets/kidney.jpg';
 
 export default function IconLabelTabs() {
   const [value, setValue] = React.useState(0);
@@ -30,9 +29,13 @@ export default function IconLabelTabs() {
   };
 
   return (
-    <div className="flex flex-col items-center pt-10 pb-32 my-5 bg-lime-gr rounded-b-[4rem]">
-      <h1 className="text-3xl poppins-bold">Kenali penyakit tidak menular</h1>
-      <p>Akibat kurangnya aktivitas fisik</p>
+    <div className="flex flex-col items-center pt-24 pb-32 my-5 bg-lime-gr rounded-b-[4rem]">
+      <h1 className="text-4xl poppins-bold pb-1">
+        Kenali Penyakit Tidak Menular
+      </h1>
+      <p className="text-2xl poppins-regular mb-3">
+        Akibat kurangnya aktivitas fisik
+      </p>
       <div className="container pt-10">
         <Box>
           <Tabs
@@ -150,17 +153,21 @@ export default function IconLabelTabs() {
               borderRadius: '8px',
               minHeight: '200px',
               width: '100%',
-              paddingLeft: '92px',
-              paddingRight: '2px'
             }}
           >
             {value === 0 && (
               /* Obesitas */
-              <Box sx={{ display: 'flex' }} data-aos="zoom-in">
+              <Box
+                sx={{ alignItems: 'center' }}
+                data-aos="zoom-in"
+                className="flex lg:flex-row flex-col-reverse"
+              >
                 {/* Text Column */}
-                <Box sx={{ flex: 1,  }}>
-                  <h2 className="poppins-bold">Pengertian Obesitas</h2>
-                  <p className="poppins-regular">
+                <Box sx={{ flex: 1 }} className="lg:pl-10">
+                  <h2 className="poppins-bold lg:text-4xl text-3xl mt-10 text-dark-gr mb-3">
+                    Obesitas
+                  </h2>
+                  <p className="poppins-regular text-xl">
                     Obesitas adalah kondisi medis berupa berat badan di atas
                     normal karena penumpukan lemak berlebih. Hal tersebut
                     terjadi karena asupan kalori lebih tinggi dibandingkan
@@ -168,12 +175,6 @@ export default function IconLabelTabs() {
                     dalam kurun waktu lama, besar kemungkinan berat badan akan
                     terus bertambah.
                   </p>
-                  <h3 className="poppins-bold">Penyebab Obesitas</h3>
-                  <ul className="poppins-regular list-disc">
-                    <li>Riwayat keluarga kandung dengan obesitas.</li>
-                    <li>Sedentary lifestyle, seperti jarang berolahraga dan menghabiskan hari tanpa berkegiatan.</li>
-                    <li>Mengonsumsi makanan tinggi gula dan lemak secara berlebih.</li>
-                  </ul>
                 </Box>
                 {/* Image Column */}
                 <Box
@@ -188,34 +189,34 @@ export default function IconLabelTabs() {
                     src={ObesityIcon}
                     alt="Obesitas Image"
                     style={{
-                      width: '100%',
                       maxWidth: '300px',
                       borderRadius: '8px',
                     }}
+                    className="lg:w-full w-8/12"
                   />
                 </Box>
               </Box>
             )}
             {value === 1 && (
               /* Stroke */
-              <Box sx={{ display: 'flex' }} data-aos="zoom-in">
+              <Box
+                sx={{ alignItems: 'center' }}
+                data-aos="zoom-in"
+                className="flex lg:flex-row flex-col-reverse"
+              >
                 {/* Text Column */}
-                <Box sx={{ flex: 1,  }}>
-                  <h2 className="poppins-bold">Pengertian Stroke</h2>
-                  <p className="poppins-regular">
+                <Box sx={{ flex: 1 }} className="lg:pl-10">
+                  <h2 className="poppins-bold lg:text-4xl text-3xl mt-10 text-dark-gr mb-3">
+                    Stroke
+                  </h2>
+                  <p className="poppins-regular text-xl">
                     Transient Ischemic Attack (TIA) atau lebih dikenal dengan
                     stroke ringan adalah serangan yang muncul secara tiba-tiba
                     berupa gejala stroke, tetapi sifatnya sementara atau dalam
                     waktu singkat. Kebanyakan stroke ringan adalah kondisi yang
                     akan bertahan selama beberapa menit hingga jam, kemudian
-                    mereda dalam waktu 24 jam
+                    mereda dalam waktu 24 jam.
                   </p>
-                  <h3 className="poppins-bold">Penyebab Stroke</h3>
-                  <ul className="poppins-regular">
-                    <li>Penyebab 1</li>
-                    <li>Penyebab 2</li>
-                    <li>Penyebab 3</li>
-                  </ul>
                 </Box>
                 {/* Image Column */}
                 <Box
@@ -230,31 +231,34 @@ export default function IconLabelTabs() {
                     src={StrokeIcon}
                     alt="Stroke Image"
                     style={{
-                      width: '100%',
                       maxWidth: '300px',
                       borderRadius: '8px',
                     }}
+                    className="lg:w-full w-8/12"
                   />
                 </Box>
               </Box>
             )}
             {value === 2 && (
               /* Hipertensi */
-              <Box sx={{ display: 'flex' }} data-aos="zoom-in">
+              <Box
+                sx={{ alignItems: 'center' }}
+                data-aos="zoom-in"
+                className="flex lg:flex-row flex-col-reverse"
+              >
                 {/* Text Column */}
-                <Box sx={{ flex: 1,  }}>
-                  <h2>Pengertian Hipertensi</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla sed tortor quis neque accumsan fermentum. Ut a
-                    elementum ex. Maecenas luctus nisl a felis placerat.
+                <Box sx={{ flex: 1 }} className="lg:pl-10">
+                  <h2 className="poppins-bold lg:text-4xl text-3xl mt-10 text-dark-gr mb-3">
+                    Hipertensi
+                  </h2>
+                  <p className="poppins-regular text-xl">
+                    Hipertensi adalah istilah medis ketika kondisi tekanan darah
+                    pada arteri meningkat melebihi batas normal. Tekanan darah
+                    terbagi menjadi dua bagian, yaitu sistolik dan diastolik.
+                    Hipertensi ditegakkan saat kondisi tekanan sistolik melebihi
+                    atau sama dengan 140 mmHg dan diastolik melebihi atau sama
+                    dengan 90 mmHg.
                   </p>
-                  <h3>Penyebab Hipertensi</h3>
-                  <ul>
-                    <li>Penyebab 1</li>
-                    <li>Penyebab 2</li>
-                    <li>Penyebab 3</li>
-                  </ul>
                 </Box>
                 {/* Image Column */}
                 <Box
@@ -269,30 +273,33 @@ export default function IconLabelTabs() {
                     src={HypertensionIcon}
                     alt="Hipertensi Image"
                     style={{
-                      width: '100%',
                       maxWidth: '300px',
                       borderRadius: '8px',
                     }}
+                    className="lg:w-full w-8/12"
                   />
                 </Box>
               </Box>
             )}
             {value === 3 && (
-              <Box sx={{ display: 'flex' }} data-aos="zoom-in">
+              <Box
+                sx={{ alignItems: 'center' }}
+                data-aos="zoom-in"
+                className="flex lg:flex-row flex-col-reverse"
+              >
                 {/* Text Column */}
-                <Box sx={{ flex: 1,  }}>
-                  <h2>Pengertian Gagal Ginjal</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla sed tortor quis neque accumsan fermentum. Ut a
-                    elementum ex. Maecenas luctus nisl a felis placerat.
+                <Box sx={{ flex: 1 }} className="lg:pl-10">
+                  <h2 className="poppins-bold lg:text-4xl text-3xl mt-10 text-dark-gr mb-3">
+                    Gagal Ginjal
+                  </h2>
+                  <p className="poppins-regular text-xl">
+                    Gagal ginjal adalah suatu kondisi penurunan fungsi ginjal
+                    dalam menyaring limbah sisa metabolisme tubuh dari dalam
+                    darah dan membuangnya melalui urin. Kondisi tersebut
+                    menyebabkan kadar racun dan cairan berbahaya akan mengendap
+                    dalam tubuh dan dapat berakibat fatal apabila tidak
+                    ditangani.
                   </p>
-                  <h3>Penyebab Gagal Ginjal</h3>
-                  <ul>
-                    <li>Penyebab 1</li>
-                    <li>Penyebab 2</li>
-                    <li>Penyebab 3</li>
-                  </ul>
                 </Box>
                 {/* Image Column */}
                 <Box
@@ -304,33 +311,35 @@ export default function IconLabelTabs() {
                   }}
                 >
                   <img
-                    src={KidneyFailureIconn}
-                    alt="Gagal Ginjal Image"
+                    src={KidneyFailureIcon}
+                    alt="Hipertensi Image"
                     style={{
-                      width: '100%',
-                      height: '300px',
+                      maxWidth: '300px',
                       borderRadius: '8px',
                     }}
+                    className="lg:w-full w-8/12"
                   />
                 </Box>
               </Box>
             )}
             {value === 4 && (
-              <Box sx={{ display: 'flex' }} data-aos="zoom-in">
+              <Box
+                sx={{ alignItems: 'center' }}
+                data-aos="zoom-in"
+                className="flex lg:flex-row flex-col-reverse"
+              >
                 {/* Text Column */}
-                <Box sx={{ flex: 1,  }}>
-                  <h2>Pengertian Osteoporosis</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nulla sed tortor quis neque accumsan fermentum. Ut a
-                    elementum ex. Maecenas luctus nisl a felis placerat.
+                <Box sx={{ flex: 1 }} className="lg:pl-10">
+                  <h2 className="poppins-bold lg:text-4xl text-3xl mt-10 text-dark-gr mb-3">
+                    Osteoporosis
+                  </h2>
+                  <p className="poppins-regular text-xl">
+                    Osteoporosis adalah kondisi ketika kepadatan tulang
+                    berkurang sehingga tulang menjadi keropos dan mudah patah.
+                    Osteoporosis jarang menimbulkan gejala dan biasanya baru
+                    diketahui ketika penderitanya jatuh atau mengalami cedera
+                    yang menyebabkan patah tulang.
                   </p>
-                  <h3>Penyebab Osteoporosis</h3>
-                  <ul>
-                    <li>Penyebab 1</li>
-                    <li>Penyebab 2</li>
-                    <li>Penyebab 3</li>
-                  </ul>
                 </Box>
                 {/* Image Column */}
                 <Box
@@ -345,10 +354,10 @@ export default function IconLabelTabs() {
                     src={OsteoIcon}
                     alt="Osteoporosis Image"
                     style={{
-                      width: '100%',
                       maxWidth: '300px',
                       borderRadius: '8px',
                     }}
+                    className="lg:w-full w-8/12"
                   />
                 </Box>
               </Box>

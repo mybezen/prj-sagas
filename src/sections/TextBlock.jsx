@@ -1,6 +1,7 @@
 import AOS from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
+import Logo from '../assets/Logo.png';
 
 function TextBlock() {
   useEffect(() => {
@@ -39,7 +40,11 @@ function TextBlock() {
         </div>
       </div>
       <div className="lg:w-1/2 bg-slate-200 flex justify-center items-center lg:pb-0 pb-24 pt-32 lg:pt-0">
-        <img src="#" alt="" className="w-96 h-96 bg-gray-700 rounded-full" />
+        <img
+          src="{ Logo }"
+          alt=""
+          className="w-96 h-96 bg-gray-700 rounded-full"
+        />
       </div>
     </div>
   );
