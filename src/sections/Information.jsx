@@ -1,7 +1,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { PencegahanCard } from '../components/Card';
+import { PencegahanCard1 } from '../components/Card';
 
 function Information() {
   useEffect(() => {
@@ -18,7 +18,7 @@ function Information() {
       data-aos="fade-up"
       data-aos-duration="700"
     >
-      <PencegahanCard />
+      <PencegahanCard1 />
     </div>
   );
 }

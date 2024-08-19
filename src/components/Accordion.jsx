@@ -92,7 +92,7 @@ function AccordionCustomAnimation() {
   );
 }
 
-function AccordionPencegahan() {
+function AccordionPencegahan1() {
   const [open, setOpen] = React.useState(0);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
@@ -101,20 +101,72 @@ function AccordionPencegahan() {
     <>
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-        Rutin Berolahraga
+          Rutin Berolahraga
         </AccordionHeader>
         <AccordionBody>
           <p className="text-base poppins-semibold">
-          <ul className="text-base poppins-semibold">
-            <li>1. Melakukan olahraga secara teratur membantu menjaga berat badan ideal, mengurangi risiko obesitas, hipertensi, diabetes, stroke, dan osteoporosis.</li>
-            <li>2. Pilih aktivitas yang menyenangkan dan sesuai dengan kondisi fisik Anda, seperti berjalan, berenang, bersepeda, atau yoga.</li>
-          </ul>
+            <ul className="text-base poppins-semibold">
+              <li>1. Melakukan olahraga secara teratur membantu menjaga berat badan ideal, mengurangi risiko obesitas, hipertensi, diabetes, stroke, dan osteoporosis.</li>
+              <li>2. Pilih aktivitas yang menyenangkan dan sesuai dengan kondisi fisik Anda, seperti berjalan, berenang, bersepeda, atau yoga.</li>
+            </ul>
           </p>
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 2} animate={CUSTOM_ANIMATION}>
+    </>
+  );
+}
+
+function AccordionPencegahan2() {
+  const [open, setOpen] = React.useState(0);
+
+  const handleOpen = (value) => setOpen(open === value ? 0 : value);
+
+  return (
+    <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
+      <AccordionHeader onClick={() => handleOpen(1)}>
+        Olahraga ringan
+      </AccordionHeader>
+      <AccordionBody>
+        <p className="text-base poppins-semibold">
+          Jalan cepat di sekitar halaman/di dalam rumah selama 30-45 menit/hari, naik turun tangga di rumah selama 10-15 menit, bermain hula hoop, wall push up, squat, jumping jacks 
+        </p>
+      </AccordionBody>
+    </Accordion>
+  );
+}
+
+function AccordionPencegahan3() {
+  const [open, setOpen] = React.useState(0);
+
+  const handleOpen = (value) => setOpen(open === value ? 0 : value);
+
+  return (
+    <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
+      <AccordionHeader onClick={() => handleOpen(1)}>
+        Menghindari Kebiasaan Buruk
+      </AccordionHeader>
+      <AccordionBody>
+        <p className="text-base poppins-semibold">
+          <ul className="text-base poppins-semibold">
+            <li>1. Berhenti merokok dan mengurangi konsumsi alkohol dapat mencegah berbagai penyakit, termasuk stroke, hipertensi, dan kanker.</li>
+            <li>2. Hindari penggunaan obat tanpa resep dokter, terutama obat kortikosteroid, yang dapat mempengaruhi kesehatan tulang.</li>
+          </ul>
+        </p>
+      </AccordionBody>
+    </Accordion>
+  );
+}
+
+function AccordionPencegahan4() {
+  const [open, setOpen] = React.useState(0);
+
+  const handleOpen = (value) => setOpen(open === value ? 0 : value);
+
+  return (
+    <>
+      <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-        Mengonsumsi Makanan Sehat dan Bergizi
+          Mengonsumsi Makanan Sehat dan Bergizi
         </AccordionHeader>
         <AccordionBody>
           <p className="text-base poppins-semibold">Yaitu dengan cara:</p>
@@ -124,47 +176,31 @@ function AccordionPencegahan() {
           </ul>
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 3} animate={CUSTOM_ANIMATION}>
-        <AccordionHeader onClick={() => handleOpen(3)}>
-        Menjaga Berat Badan Ideal
+    </>
+  );
+}
+
+function AccordionPencegahan5() {
+  const [open, setOpen] = React.useState(0);
+
+  const handleOpen = (value) => setOpen(open === value ? 0 : value);
+
+  return (
+    <>
+      <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
+        <AccordionHeader onClick={() => handleOpen(2)}>
+          Mengonsumsi Makanan Sehat dan Bergizi
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base poppins-semibold">
+          <p className="text-base poppins-semibold">Yaitu dengan cara:</p>
           <ul className="text-base poppins-semibold">
-            <li>1. Mengontrol berat badan dapat mengurangi risiko obesitas, hipertensi, diabetes, dan masalah jantung.</li>
-            <li>2. Diet sehat dan olahraga rutin adalah kunci untuk menjaga berat badan tetap ideal.</li>
+            <li>1. Makan makanan dengan gizi seimbang, kaya serat, buah-buahan, sayuran, dan rendah lemak serta gula, membantu mencegah obesitas, diabetes, hipertensi, dan osteoporosis.</li>
+            <li>2. Batasi konsumsi makanan tinggi natrium, lemak jenuh, dan kolesterol, serta hindari konsumsi gula berlebih.</li>
           </ul>
-          </p>
-        </AccordionBody>
-      </Accordion>
-      <Accordion open={open === 4} animate={CUSTOM_ANIMATION}>
-        <AccordionHeader onClick={() => handleOpen(4)}>
-        Menghindari Kebiasaan Buruk
-        </AccordionHeader>
-        <AccordionBody>
-          <p className="text-base poppins-semibold">
-          <ul className="text-base poppins-semibold">
-            <li>1. Berhenti merokok dan mengurangi konsumsi alkohol dapat mencegah berbagai penyakit, termasuk stroke, hipertensi, dan kanker.</li>
-            <li>2. Hindari penggunaan obat tanpa resep dokter, terutama obat kortikosteroid, yang dapat mempengaruhi kesehatan tulang.</li>
-          </ul>
-          </p>
-        </AccordionBody>
-      </Accordion>
-      <Accordion open={open === 5} animate={CUSTOM_ANIMATION}>
-        <AccordionHeader onClick={() => handleOpen(5)}>
-        Tidur yang Cukup dan Berkualitas
-        </AccordionHeader>
-        <AccordionBody>
-          <p className="text-base poppins-semibold">
-          <ul className="text-base poppins-semibold">
-            <li>1. Tidur yang cukup mendukung kesehatan fisik dan mental, serta membantu dalam pengaturan berat badan, metabolisme, dan pemulihan tubuh.</li>
-            <li>2. Cobalah untuk mendapatkan 7-8 jam tidur per malam dan ciptakan rutinitas tidur yang baik.</li>
-          </ul>
-          </p>
         </AccordionBody>
       </Accordion>
     </>
   );
 }
 
-export {AccordionCustomAnimation, AccordionPencegahan};
+export { AccordionCustomAnimation, AccordionPencegahan1, AccordionPencegahan2, AccordionPencegahan3, AccordionPencegahan4, AccordionPencegahan5 };
