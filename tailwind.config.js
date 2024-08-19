@@ -15,6 +15,10 @@ export default {
       colors: {
         'dark-gr': '#05411A',
         'lime-gr': '#439842',
+        'lune-blue' : '#6EA4EC',
+        'gr-blue' : '#347991',
+        'gd-db' : '#40284B',
+        'gd-lb' : '#3E76C5',
         
       }
     },

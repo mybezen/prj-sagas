@@ -12,7 +12,7 @@ function LandingPage() {
   }, []);
   return (
     <div
-      className="aos-items"
+      className="aos-items "
       data-aos="fade-up"
       data-aos-duration="1200"
       data-aos-mirror="true"

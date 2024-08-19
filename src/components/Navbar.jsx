@@ -73,19 +73,19 @@ export function StickyNavbar() {
   );
 
   return (
-    <Navbar className="fixed lg:sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+    <Navbar className="border-none bg-transparent fixed lg:sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
       <div className="flex items-center justify-between">
        <div className="flex items-center gap-2 ">
         <img className="drop-shadow-lg" src={VitalIcon} alt="" />
-        <Typography className="mr-4 cursor-default py-1.5 poppins-bold text-3xl text-dark-gr drop-shadow-lg">
-          Vital<span className="text-lime-gr">Motion</span>
+        <Typography className="mr-4 cursor-default py-1.5 poppins-bold text-3xl text-lune-blue drop-shadow-lg">
+          Vital<span className="text-gr-blue">Motion</span>
         </Typography>
         </div> 
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
           <IconButton
             variant="text"
-            className="rounded-none p-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-lime-gr ansparent active:bg-transparent  lg:hidden"
+            className="rounded-none p-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-lune-blue active:bg-transparent  lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >

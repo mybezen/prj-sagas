@@ -110,4 +110,18 @@
     font-style: italic;
   }
   
-  
+/* app.css */
+.scrollable-container {
+  overflow: auto; /* Allows scrolling */
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+.scrollable-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.scrollable-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

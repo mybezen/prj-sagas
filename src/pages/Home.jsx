@@ -1,8 +1,8 @@
-import { FooterWithSocialLinks } from '../components/Footer';
-import { StickyNavbar } from '../components/Navbar';
+import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import { FooterWithSocialLinks } from '../components/Footer';
+import { StickyNavbar } from '../components/Navbar';
 import LandingPage from '../sections/LandingPage';
 import TextBlock from '../sections/TextBlock';
 import Information from '../sections/Information';
@@ -17,15 +17,18 @@ function Home() {
       mirror: true,
     });
   }, []);
+
   return (
-    <div className="">
-      <LandingPage />
+    <div>
       <StickyNavbar />
+    <div className="scrollable-container">
+      <LandingPage />
       <TextBlock />
       <IconLabelTabs />
       <Information />
       <CustomLabels />
       <FooterWithSocialLinks />
+    </div>
     </div>
   );
 }
