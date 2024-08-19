@@ -144,19 +144,21 @@ export default function IconLabelTabs() {
 
           <Box
             sx={{
-              padding: '20px',
+              padding: '48px',
               marginTop: '20px',
               bgcolor: '#ffffff',
               borderRadius: '8px',
               minHeight: '200px',
               width: '100%',
+              paddingLeft: '92px',
+              paddingRight: '2px'
             }}
           >
             {value === 0 && (
               /* Obesitas */
               <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                 {/* Text Column */}
-                <Box sx={{ flex: 1, paddingRight: '20px' }}>
+                <Box sx={{ flex: 1,  }}>
                   <h2 className="poppins-bold">Pengertian Obesitas</h2>
                   <p className="poppins-regular">
                     Obesitas adalah kondisi medis berupa berat badan di atas
@@ -167,10 +169,10 @@ export default function IconLabelTabs() {
                     terus bertambah.
                   </p>
                   <h3 className="poppins-bold">Penyebab Obesitas</h3>
-                  <ul className="poppins-regular">
-                    <li>Penyebab 1</li>
-                    <li>Penyebab 2</li>
-                    <li>Penyebab 3</li>
+                  <ul className="poppins-regular list-disc">
+                    <li>Riwayat keluarga kandung dengan obesitas.</li>
+                    <li>Sedentary lifestyle, seperti jarang berolahraga dan menghabiskan hari tanpa berkegiatan.</li>
+                    <li>Mengonsumsi makanan tinggi gula dan lemak secara berlebih.</li>
                   </ul>
                 </Box>
                 {/* Image Column */}
@@ -198,7 +200,7 @@ export default function IconLabelTabs() {
               /* Stroke */
               <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                 {/* Text Column */}
-                <Box sx={{ flex: 1, paddingRight: '20px' }}>
+                <Box sx={{ flex: 1,  }}>
                   <h2 className="poppins-bold">Pengertian Stroke</h2>
                   <p className="poppins-regular">
                     Transient Ischemic Attack (TIA) atau lebih dikenal dengan
@@ -240,7 +242,7 @@ export default function IconLabelTabs() {
               /* Hipertensi */
               <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                 {/* Text Column */}
-                <Box sx={{ flex: 1, paddingRight: '20px' }}>
+                <Box sx={{ flex: 1,  }}>
                   <h2>Pengertian Hipertensi</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -278,7 +280,7 @@ export default function IconLabelTabs() {
             {value === 3 && (
               <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                 {/* Text Column */}
-                <Box sx={{ flex: 1, paddingRight: '20px' }}>
+                <Box sx={{ flex: 1,  }}>
                   <h2>Pengertian Gagal Ginjal</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -316,7 +318,7 @@ export default function IconLabelTabs() {
             {value === 4 && (
               <Box sx={{ display: 'flex' }} data-aos="zoom-in">
                 {/* Text Column */}
-                <Box sx={{ flex: 1, paddingRight: '20px' }}>
+                <Box sx={{ flex: 1,  }}>
                   <h2>Pengertian Osteoporosis</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.

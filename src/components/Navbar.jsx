@@ -81,11 +81,11 @@ export function StickyNavbar() {
           <div className="mr-4 hidden lg:block">{navList}</div>
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="rounded-none p-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-lime-gr ansparent active:bg-transparent  lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
-            {openNav ? (
+            {openNav ? ( 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
