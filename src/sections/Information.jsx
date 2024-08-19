@@ -14,11 +14,11 @@ function Information() {
 
   return (
     <div
-      className="container flex flex-col items-center bg-slate-200 my-4 pt-24"
+      className="container flex flex-col items-center bg-slate-200 my-4 py-24"
       data-aos="fade-up"
       data-aos-duration="700"
     >
-      <SimpleCard />;
+      <SimpleCard />
     </div>
   );
 }
