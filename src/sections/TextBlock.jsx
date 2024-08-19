@@ -2,6 +2,7 @@ import AOS from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import VitalIcon from '../assets/VitalMotion.svg'
+import MoonIcon from '../assets/MoonIntroduction.svg'
 
 function TextBlock() {
   useEffect(() => {
@@ -20,7 +21,8 @@ function TextBlock() {
       data-aos-duration="700"
       data-aos-easing="ease-in-sine"
     >
-      <div className="lg:w-1/2 flex justify-center items-center pb-24 lg:pb-0">
+      <img className="absolute -z-10 w-full" src={MoonIcon} alt="" />
+      <div className="lg:w-1/2 flex justify-center items-center pb-24 lg:pb-0 p-32">
         <div className="lg:w-10/12 w-11/12">
           <h1 className="lg:text-5xl text-3xl poppins-bold mb-3 text-black">
             What is{' '}
