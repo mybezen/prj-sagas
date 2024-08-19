@@ -22,7 +22,7 @@ export function AccordionCustomAnimation() {
           Mengapa kita harus sehat secara fisik?
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base font-normal">
+          <p className="text-base poppins-semibold">
             karena usia 25—30 tahun merupakan fase berhentinya peningkatan
             kekuatan otot dan menjelang 30 tahun ke atas kekuatan otot pun
             cenderung menurun, maka dari itu diperlukan aktivitas fisik untuk
@@ -36,8 +36,8 @@ export function AccordionCustomAnimation() {
           sehari-hari?
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base font-normal">Yaitu dengan cara:</p>
-          <ul className="text-base font-normal">
+          <p className="text-base poppins-semibold">Yaitu dengan cara:</p>
+          <ul className="text-base poppins-semibold">
             <li>1. Menjaga pola makan</li>
             <li>2. Melakukan aktivitas fisik</li>
             <li>3. Istirahat yang cukup</li>
@@ -51,7 +51,7 @@ export function AccordionCustomAnimation() {
           tetap aman?
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base font-normal">
+          <p className="text-base poppins-semibold">
             Mulailah latihan dengan intensitas ringan dan tingkatkan perlahan.
             Dengarkan tubuhmu, beristirahat jika lelah, dan jadwalkan hari
             istirahat. Lakukan pemanasan, pendinginan, dan variasikan latihan
@@ -66,7 +66,7 @@ export function AccordionCustomAnimation() {
           keseluruhan?
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base font-normal">
+          <p className="text-base poppins-semibold">
             Pola makan sehat mendukung energi, fungsi organ, dan mencegah
             penyakit. Pola makan buruk meningkatkan risiko masalah kesehatan
             seperti obesitas dan penyakit kronis. Jadi, makan seimbang dan
@@ -79,7 +79,7 @@ export function AccordionCustomAnimation() {
           Apa dampak negatif dari gaya hidup sedentari (kurang gerak)?
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base font-normal">
+          <p className="text-base poppins-semibold">
             Dampak negatif gaya hidup sedentari meliputi risiko penyakit jantung
             naik, obesitas, diabetes, osteoporosis, otot lemah, postur buruk,
             metabolisme lambat, risiko kanker tinggi, fungsi kognitif turun,

@@ -5,6 +5,7 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
+import VitalIcon from '../assets/VitalMotion.svg'
 
 export function StickyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -24,7 +25,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-regular poppins-bold"
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-lg drop-shadow-lg">
           Beranda
         </a>
       </Typography>
@@ -34,7 +35,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-bold"
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-lg drop-shadow-lg">
           Tentang
         </a>
       </Typography>
@@ -44,7 +45,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-bold"
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-lg drop-shadow-lg">
           Blog
         </a>
       </Typography>
@@ -54,7 +55,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-bold"
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-lg drop-shadow-lg">
           Data
         </a>
       </Typography>
@@ -64,7 +65,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-bold"
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-lg drop-shadow-lg">
           Docs
         </a>
       </Typography>
@@ -74,9 +75,12 @@ export function StickyNavbar() {
   return (
     <Navbar className="fixed lg:sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
       <div className="flex items-center justify-between">
-        <Typography className="mr-4 cursor-default py-1.5 poppins-bold text-3xl text-dark-gr">
+       <div className="flex items-center gap-2 ">
+        <img className="drop-shadow-lg" src={VitalIcon} alt="" />
+        <Typography className="mr-4 cursor-default py-1.5 poppins-bold text-3xl text-dark-gr drop-shadow-lg">
           Vital<span className="text-lime-gr">Motion</span>
         </Typography>
+        </div> 
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>
           <IconButton

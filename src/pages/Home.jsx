@@ -7,7 +7,6 @@ import LandingPage from '../sections/LandingPage';
 import TextBlock from '../sections/TextBlock';
 import Information from '../sections/Information';
 import IconLabelTabs from '../components/Tabs';
-import BasicBars from '../components/Charts';
 import CustomLabels from '../components/Charts';
 
 function Home() {
