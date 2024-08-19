@@ -13,15 +13,14 @@ function TextBlock() {
   }, []);
   return (
     <div
-      className="w-full h-screen flex"
+      className="w-full h-screen flex lg:flex-row flex-col-reverse container"
       id="textblock-container"
       data-aos="fade-up"
       data-aos-duration="700"
       data-aos-easing="ease-in-sine"
-      data-aos-anchor-placement="top-center"
     >
-      <div className="lg:w-1/2 flex justify-center items-center lg:ml-24">
-        <div className="w-10/12">
+      <div className="lg:w-1/2 flex justify-center items-center bg-amber-100 pb-11">
+        <div className="lg:w-10/12 w-11/12">
           <h1 className="text-5xl poppins-bold mb-3">
             What is{' '}
             <span className="text-dark-gr">
@@ -39,7 +38,7 @@ function TextBlock() {
           </p>
         </div>
       </div>
-      <div className="lg:w-1/2 bg-slate-200 flex justify-center items-center">
+      <div className="lg:w-1/2 bg-slate-200 flex justify-center items-center lg:pb-0 pb-24">
         <img src="#" alt="" className="w-96 h-96 bg-gray-700 rounded-full" />
       </div>
     </div>

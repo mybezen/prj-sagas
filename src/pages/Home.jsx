@@ -7,6 +7,8 @@ import LandingPage from '../sections/LandingPage';
 import TextBlock from '../sections/TextBlock';
 import Information from '../sections/Information';
 import IconLabelTabs from '../components/Tabs';
+import BasicBars from '../components/Charts';
+import CustomLabels from '../components/Charts';
 
 function Home() {
   useEffect(() => {
@@ -21,10 +23,9 @@ function Home() {
       <LandingPage />
       <StickyNavbar />
       <TextBlock />
-      <div className="container bg-amber-400 flex flex-col items-center my-4">
-        <IconLabelTabs />
-      </div>
+      <IconLabelTabs />
       <Information />
+      <CustomLabels />
       <FooterWithSocialLinks />
     </div>
   );

@@ -6,7 +6,7 @@ import { SimpleCard } from '../components/Card';
 function Information() {
   useEffect(() => {
     AOS.init({
-      once: false,
+      once: true,
       duration: 500,
     });
     AOS.refresh();
