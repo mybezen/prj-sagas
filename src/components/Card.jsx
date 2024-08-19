@@ -13,7 +13,7 @@ export function PencegahanCard1() {
 
 export function PencegahanCard2() {
   return (
-    <Card className="w-6/12">
+    <Card className="w-6/12 border-black">
       <CardBody>
         <AccordionPencegahan2 />
       </CardBody>
