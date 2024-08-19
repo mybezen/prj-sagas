@@ -20,7 +20,7 @@ const currentYear = new Date().getFullYear();
 export function FooterWithSocialLinks() {
   return (
     <footer className="relative w-full">
-      <div className="pt-12 mx-auto w-full max-w-full px-8 bg-gray-400">
+      <div className="pt-12 mx-auto w-full max-w-full px-8 ">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6 poppins-semibold-italic">
             VitalMotion

@@ -22,7 +22,7 @@ function Information() {
   return (
     <div className="flex flex-col">
       <img
-        className="w-full"
+        className="w-full absolute"
         data-aos="fade-up"
         data-aos-easing="ease-in-sine"
         data-aos-duration="700"

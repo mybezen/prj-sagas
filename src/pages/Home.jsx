@@ -9,6 +9,8 @@ import Information from '../sections/Information';
 import IconLabelTabs from '../components/Tabs';
 import CustomLabels from '../components/Charts';
 import Introduction from '../sections/Introduction';
+import Reason from '../sections/Reason';
+import OurTeam from '../sections/OurTeam';
 
 function Home() {
   useEffect(() => {
@@ -29,7 +31,9 @@ function Home() {
         <Introduction />
         <IconLabelTabs />
         <Information />
+        <Reason />
         <CustomLabels />
+        <OurTeam />
         <FooterWithSocialLinks />
       </div>
     </div>

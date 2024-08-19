@@ -19,7 +19,8 @@ export default {
         'gr-blue' : '#347991',
         'gd-db' : '#40284B',
         'gd-lb' : '#3E76C5',
-        'sky-bl' : '#5F98E3'
+        'sky-bl' : '#5F98E3',
+        'dr-bl' : '#34547D',
         
       }
     },

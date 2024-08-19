@@ -32,7 +32,7 @@ export default function IconLabelTabs() {
   return (
     <div className="lg:-mt-36">
       <img className="w-full" data-aos="fade-up" src={WaveIcon}></img>
-      <div className="flex flex-col items-center pt-24 bg-sky-bl">
+      <div className="flex flex-col items-center p-24 bg-gradient-to-b from-sky-bl to-dr-bl">
         <h1 className="lg:text-4xl text-2xl poppins-bold pb-1">
           Kenali Penyakit Tidak Menular
         </h1>
@@ -369,6 +369,7 @@ export default function IconLabelTabs() {
           </Box>
         </div>
       </div>
+      
     </div>
   );
 }
