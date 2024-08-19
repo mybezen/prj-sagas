@@ -4,6 +4,7 @@ import Tab from '@mui/material/Tab';
 import { Box } from '@mui/material';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import WaveIcon from '../assets/WaveTop.svg';
 
 //Import custom icon
 import ObesityIcon from '../assets/obesit.png';
@@ -29,7 +30,9 @@ export default function IconLabelTabs() {
   };
 
   return (
-    <div className="flex flex-col items-center pt-24 pb-32 mt-5 bg-sky-bl">
+    <div>
+        <img className='w-full' src={WaveIcon}></img>
+    <div className="flex flex-col items-center pt-24 pb-32  bg-sky-bl">
       <h1 className="text-4xl poppins-bold pb-1">
         Kenali Penyakit Tidak Menular
       </h1>
@@ -365,6 +368,7 @@ export default function IconLabelTabs() {
           </Box>
         </Box>
       </div>
+    </div>
     </div>
   );
 }

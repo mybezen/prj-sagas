@@ -22,13 +22,16 @@ function TextBlock() {
       data-aos-easing="ease-in-sine"
     >
       <img
-        className="absolute -z-10 lg:w-full none lg:block"
+        data-aos="fade-left"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-sine"
+        className="absolute -z-10 w-full"
         src={MoonIcon}
         alt=""
       />
-      <div className="lg:w-2/3 flex justify-center items-center pb-24 lg:pb-0 p-32">
-        <div className="w-11/12">
-          <h1 className="lg:text-5xl text-2xl poppins-bold mb-3 text-black">
+      <div className="lg:w-1/2 flex justify-center items-center pb-24 lg:pb-0 p-32">
+        <div className="lg:w-10/12 w-11/12">
+          <h1 className="lg:text-5xl text-3xl poppins-bold mb-3 text-black">
             What is{' '}
             <span className="text-lune-blue">
               Vital<span className="text-gr-blue">Motion</span>

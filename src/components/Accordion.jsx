@@ -159,12 +159,13 @@ function AccordionPencegahan4() {
   return (
     <>
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
-        <AccordionHeader onClick={() => handleOpen(2)}>
+        <AccordionHeader onClick={() => handleOpen(1)}>
         Menjaga Pola Tidur
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base poppins-semibold">Yaitu dengan cara:</p>
+          <p className="text-base poppins-semibold">
           Untuk menjaga pola tidur yang baik, tidurlah dan bangun pada waktu yang sama setiap hari, buat rutinitas malam yang menenangkan, dan hindari layar elektronik sebelum tidur. Atur kamar tidur agar nyaman, batasi kafein dan alkohol, dan lakukan aktivitas fisik secara teratur. Kelola stres dan hindari makan berat sebelum tidur.
+          </p>
         </AccordionBody>
       </Accordion>
     </>
