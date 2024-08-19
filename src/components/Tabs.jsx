@@ -29,7 +29,7 @@ export default function IconLabelTabs() {
   };
 
   return (
-    <div className="flex flex-col items-center pt-24 pb-32 my-5 bg-lime-gr rounded-b-[4rem]">
+    <div className="flex flex-col items-center pt-24 pb-32 mt-5 bg-sky-bl">
       <h1 className="text-4xl poppins-bold pb-1">
         Kenali Penyakit Tidak Menular
       </h1>
