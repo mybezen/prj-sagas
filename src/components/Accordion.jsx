@@ -101,11 +101,15 @@ function AccordionPencegahan1() {
     <>
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-        Aktivitas fisik ringan
+          Aktivitas fisik ringan
         </AccordionHeader>
         <AccordionBody>
           <p className="text-base poppins-semibold">
-          Berjalan santai di rumah, kantor, atau pusat perbelanjaan, duduk bekerja di depan komputer, membaca, menulis, menyetir, mengoperasikan mesin dengan posisi duduk atau berdiri, berdiri melakukan pekerjaan rumah tangga ringan seperti mencuci piring, setrika, memasak, menyapu, mengepel lantai, menjahit
+            Berjalan santai di rumah, kantor, atau pusat perbelanjaan, duduk
+            bekerja di depan komputer, membaca, menulis, menyetir,
+            mengoperasikan mesin dengan posisi duduk atau berdiri, berdiri
+            melakukan pekerjaan rumah tangga ringan seperti mencuci piring,
+            setrika, memasak, menyapu, mengepel lantai, menjahit.
           </p>
         </AccordionBody>
       </Accordion>
@@ -121,11 +125,13 @@ function AccordionPencegahan2() {
   return (
     <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
       <AccordionHeader onClick={() => handleOpen(1)}>
-      Olahraga ringan
+        Olahraga ringan
       </AccordionHeader>
       <AccordionBody>
         <p className="text-base poppins-semibold">
-          Jalan cepat di sekitar halaman/di dalam rumah selama 30-45 menit/hari, naik turun tangga di rumah selama 10-15 menit, bermain hula hoop, wall push up, squat, jumping jacks 
+          Jalan cepat di sekitar halaman atau di dalam rumah selama 30-45 menit
+          per hari, naik turun tangga di rumah selama 10-15 menit, bermain hula
+          hoop, wall push up, squat, jumping jacks.
         </p>
       </AccordionBody>
     </Accordion>
@@ -144,7 +150,12 @@ function AccordionPencegahan3() {
       </AccordionHeader>
       <AccordionBody>
         <p className="text-base poppins-semibold">
-        Untuk menjaga pola makan sehat, rencanakan menu mingguan, pilih makanan bergizi, dan perhatikan ukuran porsi. Minum cukup air dan makan secara teratur, sesuai sinyal tubuh. Nikmati makanan dengan tenang, pilih camilan sehat, dan gabungkan dengan aktivitas fisik. Sesekali, beri kelonggaran pada diri sendiri untuk membuat pola makan lebih mudah dipertahankan.
+          Untuk menjaga pola makan sehat, rencanakan menu mingguan, pilih
+          makanan bergizi, dan perhatikan ukuran porsi. Minum cukup air dan
+          makan secara teratur, sesuai sinyal tubuh. Nikmati makanan dengan
+          tenang, pilih camilan sehat, dan gabungkan dengan aktivitas fisik.
+          Sesekali, beri kelonggaran pada diri sendiri untuk membuat pola makan
+          lebih mudah dipertahankan.
         </p>
       </AccordionBody>
     </Accordion>
@@ -160,11 +171,15 @@ function AccordionPencegahan4() {
     <>
       <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-        Menjaga Pola Tidur
+          Menjaga Pola Tidur
         </AccordionHeader>
         <AccordionBody>
           <p className="text-base poppins-semibold">
-          Untuk menjaga pola tidur yang baik, tidurlah dan bangun pada waktu yang sama setiap hari, buat rutinitas malam yang menenangkan, dan hindari layar elektronik sebelum tidur. Atur kamar tidur agar nyaman, batasi kafein dan alkohol, dan lakukan aktivitas fisik secara teratur. Kelola stres dan hindari makan berat sebelum tidur.
+            Untuk menjaga pola tidur yang baik, tidurlah dan bangun pada waktu
+            yang sama setiap hari, buat rutinitas malam yang menenangkan, dan
+            hindari layar elektronik sebelum tidur. Atur kamar tidur agar
+            nyaman, batasi kafein dan alkohol, dan lakukan aktivitas fisik
+            secara teratur. Kelola stres dan hindari makan berat sebelum tidur.
           </p>
         </AccordionBody>
       </Accordion>
@@ -172,5 +187,10 @@ function AccordionPencegahan4() {
   );
 }
 
-
-export { AccordionCustomAnimation, AccordionPencegahan1, AccordionPencegahan2, AccordionPencegahan3, AccordionPencegahan4 };
+export {
+  AccordionCustomAnimation,
+  AccordionPencegahan1,
+  AccordionPencegahan2,
+  AccordionPencegahan3,
+  AccordionPencegahan4,
+};
