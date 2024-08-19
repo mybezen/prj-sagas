@@ -1,31 +1,31 @@
-import React from "react";
+import React from 'react';
 import {
   Navbar,
   MobileNav,
   Typography,
   IconButton,
-} from "@material-tailwind/react";
-import VitalIcon from '../assets/VitalMotion.svg'
+} from '@material-tailwind/react';
+import VitalIcon from '../assets/VitalMotion.svg';
 
 export function StickyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
     window.addEventListener(
-      "resize",
+      'resize',
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
 
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 lg:px-8 ">
+    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 lg:px-8">
       <Typography
         as="li"
         variant="small"
         color="black"
-        className="p-1 poppins-regular poppins-bold"
+        className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-lg drop-shadow-lg">
+        <a href="#" className="flex items-center text-base drop-shadow-lg">
           Beranda
         </a>
       </Typography>
@@ -33,9 +33,9 @@ export function StickyNavbar() {
         as="li"
         variant="small"
         color="black"
-        className="p-1 poppins-bold"
+        className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-lg drop-shadow-lg">
+        <a href="#" className="flex items-center text-base drop-shadow-lg">
           Tentang
         </a>
       </Typography>
@@ -43,9 +43,9 @@ export function StickyNavbar() {
         as="li"
         variant="small"
         color="black"
-        className="p-1 poppins-bold"
+        className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-lg drop-shadow-lg">
+        <a href="#" className="flex items-center text-base drop-shadow-lg">
           Blog
         </a>
       </Typography>
@@ -53,9 +53,9 @@ export function StickyNavbar() {
         as="li"
         variant="small"
         color="black"
-        className="p-1 poppins-bold"
+        className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-lg drop-shadow-lg">
+        <a href="#" className="flex items-center text-base drop--lg">
           Data
         </a>
       </Typography>
@@ -63,9 +63,9 @@ export function StickyNavbar() {
         as="li"
         variant="small"
         color="black"
-        className="p-1 poppins-bold"
+        className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-lg drop-shadow-lg">
+        <a href="#" className="flex items-center text-base drop-shadow-lg">
           Docs
         </a>
       </Typography>
@@ -75,21 +75,21 @@ export function StickyNavbar() {
   return (
     <Navbar className="border-none bg-transparent fixed lg:sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
       <div className="flex items-center justify-between">
-       <div className="flex items-center gap-2 ">
-        <img className="drop-shadow-lg" src={VitalIcon} alt="" />
-        <Typography className="mr-4 cursor-default py-1.5 poppins-bold text-3xl text-lune-blue drop-shadow-lg">
-          Vital<span className="text-gr-blue">Motion</span>
-        </Typography>
-        </div> 
+        <div className="flex items-center gap-2 ">
+          <img className="drop-shadow-lg w-[50px]" src={VitalIcon} alt="" />
+          <Typography className="mr-4 cursor-default py-1.5 poppins-bold text-xl text-lune-blue drop-shadow-lg">
+            Vital<span className="text-gr-blue">Motion</span>
+          </Typography>
+        </div>
         <div className="flex items-center gap-4">
-          <div className="mr-4 hidden lg:block">{navList}</div>
+          <div className="hidden lg:block">{navList}</div>
           <IconButton
             variant="text"
-            className="rounded-none p-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-lune-blue active:bg-transparent  lg:hidden"
+            className="rounded-none p-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-lune-blue active:bg-transparent lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
-            {openNav ? ( 
+            {openNav ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
