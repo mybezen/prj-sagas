@@ -20,9 +20,9 @@ function Information() {
   }, []);
 
   return (
-    <div className="flex flex-col bg-slate-300">
+    <div className="flex flex-col">
       <img
-        className="absolute w-full"
+        className="w-full"
         data-aos="fade-up"
         data-aos-easing="ease-in-sine"
         data-aos-duration="700"
@@ -30,7 +30,7 @@ function Information() {
         alt=""
       />
       <div
-        className="container pt-[25rem] pb-16 flex flex-col lg:flex-row justify-center items-center"
+        className="container pb-16 flex flex-col lg:flex-row justify-center items-center"
         data-aos="fade-up"
         data-aos-duration="700"
       >
