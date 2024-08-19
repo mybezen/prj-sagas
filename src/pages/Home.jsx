@@ -13,7 +13,7 @@ import Introduction from '../sections/Introduction';
 function Home() {
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
       duration: 500,
       mirror: true,
     });

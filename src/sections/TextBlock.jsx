@@ -21,7 +21,7 @@ function TextBlock() {
       data-aos-duration="700"
       data-aos-easing="ease-in-sine"
     >
-      <img className="absolute -z-10 w-full" src={MoonIcon} alt="" />
+      <img data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-sine" className="absolute -z-10 w-full" src={MoonIcon} alt="" />
       <div className="lg:w-1/2 flex justify-center items-center pb-24 lg:pb-0 p-32">
         <div className="lg:w-10/12 w-11/12">
           <h1 className="lg:text-5xl text-3xl poppins-bold mb-3 text-black">
