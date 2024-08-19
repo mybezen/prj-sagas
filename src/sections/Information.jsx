@@ -16,7 +16,7 @@ function Information() {
 
   return (
     <div className='flex flex-col'>
-      <img className='absolute w-full' data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1300" src={CloudIcon} alt="" />
+      <img className='absolute w-full' data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="700" src={CloudIcon} alt="" />
       <div className="container pt-[32rem] pb-16 flex justify-center items-center"
         data-aos="fade-up"
         data-aos-duration="700">
