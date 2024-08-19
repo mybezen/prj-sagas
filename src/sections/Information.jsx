@@ -30,12 +30,12 @@ function Information() {
         alt=""
       />
       <div
-        className="container pt-[25rem] pb-16 flex justify-center items-center"
+        className="container pt-[25rem] pb-16 flex flex-col lg:flex-row justify-center items-center"
         data-aos="fade-up"
         data-aos-duration="700"
       >
         {/* Left Side: DoctIcon */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 w-10/12">
           <img
             src={DoctIcon}
             alt="Doctor Icon"

@@ -9,7 +9,7 @@ import {
 
 export function PencegahanCard1() {
   return (
-    <Card className="w-11/12">
+    <Card className="lg:w-11/12 w-full">
       <CardBody>
         <AccordionPencegahan1 />
       </CardBody>
@@ -19,7 +19,7 @@ export function PencegahanCard1() {
 
 export function PencegahanCard2() {
   return (
-    <Card className="w-11/12 border-black">
+    <Card className="lg:w-11/12 w-full">
       <CardBody>
         <AccordionPencegahan2 />
       </CardBody>
@@ -28,7 +28,7 @@ export function PencegahanCard2() {
 }
 export function PencegahanCard3() {
   return (
-    <Card className="w-11/12">
+    <Card className="lg:w-11/12 w-full">
       <CardBody>
         <AccordionPencegahan3 />
       </CardBody>
@@ -37,7 +37,7 @@ export function PencegahanCard3() {
 }
 export function PencegahanCard4() {
   return (
-    <Card className="w-11/12">
+    <Card className="lg:w-11/12 w-full">
       <CardBody>
         <AccordionPencegahan4 />
       </CardBody>

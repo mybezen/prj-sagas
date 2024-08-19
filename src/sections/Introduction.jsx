@@ -13,7 +13,7 @@ function Introduction() {
 
   return (
     <div
-      className="lg:h-screen w-full flex lg:flex-row flex-col-reverse poppins-regular lg:mt-0 mt-12 bg-slate-200"
+      className="lg:h-screen w-full flex lg:flex-row flex-col-reverse poppins-regular lg:mt-0 mt-12"
       id="introduction"
       data-aos-duration="1200"
       data-aos-easing="ease-in-sine"
@@ -40,13 +40,13 @@ function Introduction() {
       </div>
       <div className="lg:w-1/2 flex justify-center items-center lg:mb-0 mb-14">
         <div className="poppins-bold w-10/12">
-          <span className="block lg:text-7xl text-4xl">“</span>
-          <p className="lg:text-3xl text-3xl lg:-mt-8 lg:mb-5 mb-2">
+          <span className="block lg:text-7xl text-5xl">“</span>
+          <p className="lg:text-3xl text-2xl lg:-mt-8 -mt-6 lg:mb-5 mb-2">
             <span className="text-gr-blue">Health</span> is a state of complete
             physical, mental and social well-being and not merely the absence of
             disease or infirmity.
           </p>
-          <span className="text-2xl font-medium">
+          <span className="lg:text-2xl text-xl font-medium">
             World Health Organization
           </span>
         </div>

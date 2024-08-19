@@ -15,7 +15,7 @@ function TextBlock() {
   }, []);
   return (
     <div
-      className="w-full min-h-screen bg-slate-300 flex lg:flex-row flex-col-reverse  poppins-regular"
+      className="w-full min-h-screen flex lg:flex-row mt-20 lg:mt-0 flex-col-reverse poppins-regular"
       id="textblock-container"
       data-aos="fade-up"
       data-aos-duration="700"
@@ -24,13 +24,13 @@ function TextBlock() {
       <img
         data-aos-duration="1200"
         data-aos-easing="ease-in-sine"
-        className="absolute -z-10 w-full"
+        className="absolute -z-10 w-full lg:block hidden"
         src={MoonIcon}
         alt=""
       />
-      <div className="lg:w-7/12 flex justify-center items-center pb-24 lg:pb-0 pl-20">
-        <div className="lg:w-10/12 w-11/12">
-          <h1 className="lg:text-5xl text-3xl poppins-bold mb-3 text-black">
+      <div className="lg:w-7/12 w-full px-10 flex justify-center items-center pb-24 lg:pb-0 lg:pl-20">
+        <div className="lg:w-10/12 w-full lg:mt-0 mt-10">
+          <h1 className="lg:text-5xl text-4xl poppins-bold lg:mb-3 mb-1 text-black">
             What is{' '}
             <span className="text-lune-blue">
               Vital<span className="text-gr-blue">Motion</span>
@@ -49,8 +49,8 @@ function TextBlock() {
           </p>
         </div>
       </div>
-      <div className="lg:w-5/12 flex justify-center items-center lg:mt-10 lg:mr-20">
-        <img src={VitalIcon} alt="" className="lg:w-[440px]" />
+      <div className="lg:w-5/12 flex justify-center items-center lg:mt-10 lg:mr-20 lg:mb-0 mb-14">
+        <img src={VitalIcon} alt="" className="lg:w-[440px] w-7/12" />
       </div>
     </div>
   );

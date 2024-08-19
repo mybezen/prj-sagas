@@ -33,10 +33,10 @@ export default function IconLabelTabs() {
     <div className="lg:-mt-36">
       <img className="w-full" data-aos="fade-up" src={WaveIcon}></img>
       <div className="flex flex-col items-center pt-24 bg-sky-bl">
-        <h1 className="text-4xl poppins-bold pb-1">
+        <h1 className="lg:text-4xl text-2xl poppins-bold pb-1">
           Kenali Penyakit Tidak Menular
         </h1>
-        <p className="text-2xl poppins-regular mb-3">
+        <p className="lg:text-2xl text-xl poppins-regular mb-3">
           Akibat kurangnya aktivitas fisik
         </p>
         <div className="container pt-10">
