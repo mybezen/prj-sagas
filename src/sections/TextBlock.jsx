@@ -15,21 +15,20 @@ function TextBlock() {
   }, []);
   return (
     <div
-      className="w-full min-h-screen flex lg:flex-row flex-col-reverse  poppins-regular"
+      className="w-full min-h-screen bg-slate-300 flex lg:flex-row flex-col-reverse  poppins-regular"
       id="textblock-container"
       data-aos="fade-up"
       data-aos-duration="700"
       data-aos-easing="ease-in-sine"
     >
       <img
-        data-aos="fade-left"
         data-aos-duration="1200"
         data-aos-easing="ease-in-sine"
         className="absolute -z-10 w-full"
         src={MoonIcon}
         alt=""
       />
-      <div className="lg:w-1/2 flex justify-center items-center pb-24 lg:pb-0 p-32">
+      <div className="lg:w-7/12 flex justify-center items-center pb-24 lg:pb-0 pl-20">
         <div className="lg:w-10/12 w-11/12">
           <h1 className="lg:text-5xl text-3xl poppins-bold mb-3 text-black">
             What is{' '}
@@ -50,8 +49,8 @@ function TextBlock() {
           </p>
         </div>
       </div>
-      <div className="lg:w-1/3 flex justify-center items-center lg:-mb-32 lg:mr-20">
-        <img src={VitalIcon} alt="" className="lg:w-[500px]" />
+      <div className="lg:w-5/12 flex justify-center items-center lg:mt-10 lg:mr-20">
+        <img src={VitalIcon} alt="" className="lg:w-[440px]" />
       </div>
     </div>
   );
