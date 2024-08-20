@@ -10,7 +10,6 @@ import IconLabelTabs from '../components/Tabs';
 import Introduction from '../sections/Introduction';
 import Reason from '../sections/Reason';
 import Diagram from '../sections/Diagram';
-import { CarouselCustomArrows } from '../components/CardCarousel';
 
 function Home() {
   useEffect(() => {
@@ -33,7 +32,6 @@ function Home() {
         <Information />
         <Reason />
         <Diagram />
-        <CarouselCustomArrows/>
         <FooterWithSocialLinks />
       </div>
     </div>
