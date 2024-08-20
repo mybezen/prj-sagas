@@ -23,13 +23,13 @@ const currentYear = new Date().getFullYear();
 export function FooterWithSocialLinks() {
   return (
     <footer className="relative w-full">
-      <img className=" w-full" src={CloudFooter} alt="" />
-      <div className="pt-12 mx-auto w-full max-w-full px-8">
-        <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
+      <img className="w-full " src={CloudFooter} alt="" />
+      <div className="w-full max-w-full px-8 pt-12 mx-auto">
+        <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6 poppins-semibold-italic">
             VitalMotion
           </Typography>
-          <div className="grid grid-cols-3 justify-between gap-4">
+          <div className="grid justify-between grid-cols-3 gap-4">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
                 <Typography
@@ -59,10 +59,10 @@ export function FooterWithSocialLinks() {
             <Typography
               as="a"
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
+              className="transition-opacity opacity-80 hover:opacity-100"
             >
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -77,10 +77,10 @@ export function FooterWithSocialLinks() {
             <Typography
               as="a"
               href="#"
-              className="opacity-80 transition-opacity hover:opacity-100"
+              className="transition-opacity opacity-80 hover:opacity-100"
             >
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -94,7 +94,7 @@ export function FooterWithSocialLinks() {
             </Typography>
           </div>
         </div>
-        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-black-50 py-4 md:flex-row md:justify-between">
+        <div className="flex flex-col items-center justify-center w-full py-4 mt-12 border-t border-black-50 md:flex-row md:justify-between">
           <Typography
             variant="small"
             className="mb-4 text-center poppins-regular text-black-900 md:mb-0"

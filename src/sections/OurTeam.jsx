@@ -1,17 +1,12 @@
-import { AmriCard, AripCard, BintangCard, FadhlanCard, SultanCard } from "../components/BioCard"
+import { CarouselCustomArrows } from "../components/CardCarousel"
 
 
 function OurTeam() {
   return (
-    <div className="container">
-    <h1 className="poppins-bold text-3xl text-center m-8">Our Team</h1>
-    <div className="flex gap-3 items-center">
-        <SultanCard />
-        <FadhlanCard />
-        <AmriCard />
-        <AripCard />
-        <BintangCard />
-    </div>
+    <div className="flex flex-col items-center">
+      <h1 className="text-2xl poppins-bold">Our Team</h1>
+
+    <CarouselCustomArrows />
     </div>
   )
 }

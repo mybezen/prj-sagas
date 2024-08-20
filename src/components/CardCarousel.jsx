@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { IconButton } from "@material-tailwind/react";
 import {
   AmriCard,
@@ -72,18 +72,18 @@ export function CarouselCustomArrows() {
   }, [activeIndex]);
 
   return (
-    <div className="container flex items-center justify-center w-full p-10 bg-gray-100">
+    <div className="container flex items-center justify-center w-full p-10 ">
       {/* Tombol Panah Kiri */}
       <IconButton
         variant="outlined"
-        color="blue-gray"
+        color="black"
         size="lg"
         onClick={handlePrev}
         className="mx-2 arrow-button"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
+          className="w-6 h-6"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -98,7 +98,7 @@ export function CarouselCustomArrows() {
       </IconButton>
 
       {/* Kontainer Kartu */}
-      <div className="w-full flex gap-3">
+      <div className="flex w-full gap-3 overflow-hidden">
         {cards.map((card, index) => (
           <div
             key={card.name}
@@ -121,14 +121,14 @@ export function CarouselCustomArrows() {
       {/* Tombol Panah Kanan */}
       <IconButton
         variant="outlined"
-        color="blue-gray"
+        color="black"
         size="lg"
         onClick={handleNext}
         className="mx-2 arrow-button"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
+          className="w-6 h-6"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -151,7 +151,7 @@ export function CarouselCustomArrows() {
           }
 
           .w-full {
-            padding: 0 1rem;
+            
           }
         }
       `}</style>
