@@ -1,20 +1,20 @@
-import { Typography } from "@material-tailwind/react";
+import { Typography } from '@material-tailwind/react';
 
 //Icon
-import CloudFooter from '../assets/CloudFoot.svg'
+import CloudFooter from '../assets/CloudFoot.svg';
 
 const LINKS = [
   {
-    title: "Daftar Konten",
-    items: ["Overview", "About Us", "Penyakit", "Data"],
+    title: 'Daftar Konten',
+    items: ['Overview', 'About Us', 'Penyakit', 'Data'],
   },
   {
-    title: "Member",
-    items: ["Sultan", "Amri", "Sayid", "Bintang", "Fadhlan"],
+    title: 'Member',
+    items: ['Sultan', 'Amri', 'Sayid', 'Bintang', 'Fadhlan'],
   },
   {
-    title: "Credit",
-    items: ["Freepik", "Bgjar "],
+    title: 'Credit',
+    items: ['Freepik', 'Bgjar '],
   },
 ];
 
@@ -22,7 +22,7 @@ const currentYear = new Date().getFullYear();
 
 export function FooterWithSocialLinks() {
   return (
-    <footer className="relative w-full ">
+    <footer className="relative w-full lg:-mt-[410px] -mt-[150px]">
       <img className="w-full " src={CloudFooter} alt="" />
       <div className="w-full max-w-full px-8 pt-12">
         <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
@@ -99,11 +99,10 @@ export function FooterWithSocialLinks() {
             variant="small"
             className="mb-4 text-center poppins-regular text-black-900 md:mb-0"
           >
-            &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">Peintagons</a>. All
-            Rights Reserved.
+            &copy; {currentYear}{' '}
+            <a href="https://material-tailwind.com/">Peintagons</a>. All Rights
+            Reserved.
           </Typography>
-          
         </div>
       </div>
     </footer>

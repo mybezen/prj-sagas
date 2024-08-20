@@ -16,10 +16,7 @@ function TextBlock() {
   return (
     <div
       className="w-full min-h-screen flex lg:flex-row mt-20 lg:mt-0 flex-col-reverse poppins-regular"
-      id="textblock-container"
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in-sine"
+      id="about"
     >
       <img
         data-aos-duration="1200"
@@ -28,7 +25,12 @@ function TextBlock() {
         src={MoonIcon}
         alt=""
       />
-      <div className="lg:w-7/12 w-full px-10 flex justify-center items-center pb-24 lg:pb-0 lg:pl-20">
+      <div
+        className="lg:w-7/12 w-full px-10 flex justify-center items-center pb-24 lg:pb-0 lg:pl-20"
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-sine"
+      >
         <div className="lg:w-10/12 w-full lg:mt-0 mt-10">
           <h1 className="lg:text-5xl text-4xl poppins-bold lg:mb-3 mb-1 text-black">
             What is{' '}
