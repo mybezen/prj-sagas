@@ -5,11 +5,11 @@ export default function DiagramPenyebabUtama() {
     <div className="w-full flex items-center">
       <BarChart
         series={[
-          { data: [21.8], label: 'Obesitas' },
+          { data: [21.80], label: 'Obesitas' },
           { data: [1.09], label: 'Stroke' },
-          { data: [34.1], label: 'Hipertensi' },
+          { data: [34.10], label: 'Hipertensi' },
           { data: [0.38], label: 'Gagal Ginjal' },
-          { data: [19.7], label: 'Osteoporosis' },
+          { data: [19.70], label: 'Osteoporosis' },
         ]}
         barLabel={(item, context) => {
           if ((item.value ?? 0) > 100) {
