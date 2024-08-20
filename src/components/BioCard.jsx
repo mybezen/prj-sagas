@@ -42,9 +42,9 @@ export function SultanCard() {
         >
           Hustler
         </Chip>
-        <Typography level="title-lg">Sultan Arhaburrizqi E.Q</Typography>
+        <Typography level="title-lg">Sultan ARQ</Typography>
         <Typography level="body-sm" sx={{ maxWidth: "24ch" }}>
-          Project Manager, Data Analyst
+          Project Manager
         </Typography>
         <Box
           sx={{
@@ -330,7 +330,7 @@ export function BintangCard() {
         >
           Hipster
         </Chip>
-        <Typography level="title-lg">Bintang Yudha P.P</Typography>
+        <Typography level="title-lg">Bintang Yudha</Typography>
         <Typography level="body-sm" sx={{ maxWidth: "24ch" }}>
           Designer
         </Typography>

@@ -54,6 +54,7 @@ function LifestyleCard2() {
         href="https://www.antaranews.com/berita/3574299/kemenkes-sebut-pengidap-hipertensi-di-indonesia-capai-341-persen
 "
         target="_blank"
+        className=''
       >
         <div className="flex lg:flex-row flex-col">
           <div
