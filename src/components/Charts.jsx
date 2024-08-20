@@ -2,7 +2,7 @@ import { BarChart } from '@mui/x-charts/BarChart';
 
 export default function DiagramPenyebabUtama() {
   return (
-    <div className="w-full">
+    <div className="w-full flex items-center">
       <BarChart
         series={[
           { data: [21.8], label: 'Obesitas' },
@@ -17,7 +17,7 @@ export default function DiagramPenyebabUtama() {
           }
           return context.bar.height < 60 ? null : `${item.value?.toFixed(2)}%`;
         }}
-        width={undefined}
+        width={550}
         height={350}
         sx={{
           width: '100%',

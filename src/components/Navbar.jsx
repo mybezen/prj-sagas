@@ -85,7 +85,8 @@ export function StickyNavbar() {
           <div className="hidden lg:block">{navList}</div>
           <IconButton
             variant="text"
-            className="rounded-none p-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-lune-blue active:bg-transparent lg:hidden"
+            className="rounded-none p-4 ml-auto h-6 w-6 text-inherit  focus:bg-lune-blue active:bg-lune-blue lg:hidden"
+            style={{ display: 'block' }}
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
@@ -95,7 +96,7 @@ export function StickyNavbar() {
                 fill="none"
                 className="h-6 w-6"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="black"
                 strokeWidth={2}
               >
                 <path
@@ -109,7 +110,7 @@ export function StickyNavbar() {
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
                 fill="none"
-                stroke="currentColor"
+                stroke="black"
                 strokeWidth={2}
               >
                 <path
