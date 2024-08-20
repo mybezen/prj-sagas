@@ -14,7 +14,7 @@ const LINKS = [
   },
   {
     title: "Credit",
-    items: ["Freepik", "Bgjar"],
+    items: ["Freepik", "Bgjar "],
   },
 ];
 
