@@ -4,7 +4,7 @@ import BottomBubble from '../assets/bottom-bubble.svg';
 
 function Diagram() {
   return (
-    <div className="min-h-screen mt-20">
+    <div className="min-h-screen pt-36" id="data">
       <img src={TopBubble} alt="" className="absolute w-[200px] -mt-24 -z-10" />
       <div className="flex flex-col items-center text-center">
         <h1 className="text-2xl lg:text-3xl poppins-bold mb-4">
