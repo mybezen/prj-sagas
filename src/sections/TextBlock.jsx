@@ -50,7 +50,7 @@ function TextBlock() {
         </div>
       </div>
       <div className="lg:w-5/12 flex justify-center items-center lg:mt-10 lg:mr-20 lg:mb-0 mb-14">
-        <img src={VitalIcon} alt="" className="lg:w-[440px] w-7/12" />
+        <img src={VitalIcon} alt="" className="lg:w-[440px] w-8/12" />
       </div>
     </div>
   );

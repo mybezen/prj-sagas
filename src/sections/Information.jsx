@@ -7,7 +7,7 @@ import {
   PencegahanCard3,
   PencegahanCard4,
 } from '../components/Card';
-import CloudIcon from '../assets/CloudBottom.svg';
+import CloudIcon from '../assets/infocloud.svg';
 import DoctIcon from '../assets/HaloDog.svg';
 
 function Information() {
@@ -21,16 +21,14 @@ function Information() {
 
   return (
     <div className="flex flex-col">
-      <img
-        className="w-full absolute"
-        data-aos="fade-up"
-        data-aos-easing="ease-in-sine"
-        data-aos-duration="700"
-        src={CloudIcon}
-        alt=""
-      />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad
+        consequuntur voluptatum voluptate soluta quaerat et enim magni
+        repellendus voluptates?
+      </p>
+      <img className="w-full -mt-1" src={CloudIcon} alt="" />
       <div
-        className="container pb-16 flex flex-col lg:flex-row justify-center items-center"
+        className="pb-16 pt-14 lg:pt-20 flex flex-col lg:flex-row justify-center items-center"
         data-aos="fade-up"
         data-aos-duration="700"
       >
