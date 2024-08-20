@@ -8,7 +8,7 @@ import { Typography } from "@material-tailwind/react";
 function LifestyleCard() {
   return (
     <div
-      className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-[300px] h-[200px]"
+      className="flex flex-col items-center p-6 bg-white rounded-b shadow-md w-[300px] h-[200px]"
       data-aos="fade-up"
     >
       {/* Icon Placeholder */}

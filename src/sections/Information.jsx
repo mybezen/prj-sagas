@@ -21,11 +21,6 @@ function Information() {
 
   return (
     <div className="flex flex-col">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad
-        consequuntur voluptatum voluptate soluta quaerat et enim magni
-        repellendus voluptates?
-      </p>
       <img className="w-full -mt-1" src={CloudIcon} alt="" />
       <div
         className="pb-16 pt-14 lg:pt-20 flex flex-col lg:flex-row justify-center items-center"

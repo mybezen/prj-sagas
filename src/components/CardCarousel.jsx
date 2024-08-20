@@ -98,7 +98,7 @@ export function CarouselCustomArrows() {
       </IconButton>
 
       {/* Kontainer Kartu */}
-      <div className="w-full flex gap-3 overflow-hidden">
+      <div className="w-full flex gap-3">
         {cards.map((card, index) => (
           <div
             key={card.name}
