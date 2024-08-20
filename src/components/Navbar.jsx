@@ -86,7 +86,6 @@ export function StickyNavbar() {
           <IconButton
             variant="text"
             className="rounded-none p-4 ml-auto h-6 w-6 text-inherit  focus:bg-lune-blue active:bg-lune-blue lg:hidden"
-            style={{ display: 'block' }}
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
