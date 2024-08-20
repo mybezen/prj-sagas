@@ -6,11 +6,11 @@ function Diagram() {
   return (
     <div className="min-h-screen mt-20">
       <img src={TopBubble} alt="" className="absolute w-[200px] -mt-24 -z-10" />
-      <div className="flex z-10 flex-col items-center text-center">
+      <div className="flex flex-col items-center text-center">
         <h1 className="text-2xl lg:text-3xl poppins-bold mb-4">
           Diagram Penyebab Utama
         </h1>
-        <p className="z-10 text-base lg:text-lg mb-4 px-20 pb-14">
+        <p className="text-base lg:text-lg mb-4 px-20 pb-14">
           Menyajikan analisis mendalam mengenai berbagai faktor risiko yang
           paling berkontribusi terhadap timbulnya kondisi medis utama, seperti
           hipertensi, obesitas, dan osteoporosis, dengan tujuan untuk memberikan
