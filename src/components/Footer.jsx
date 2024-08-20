@@ -22,9 +22,9 @@ const currentYear = new Date().getFullYear();
 
 export function FooterWithSocialLinks() {
   return (
-    <footer className="relative w-full">
+    <footer className="relative w-full ">
       <img className="w-full " src={CloudFooter} alt="" />
-      <div className="w-full max-w-full px-8 pt-12 mx-auto">
+      <div className="w-full max-w-full px-8 pt-12">
         <div className="grid justify-between grid-cols-1 gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6 poppins-semibold-italic">
             VitalMotion
