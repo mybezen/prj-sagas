@@ -25,7 +25,10 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-base drop-shadow-lg">
+        <a
+          href="#textblock-container"
+          className="flex items-center text-base drop-shadow-lg"
+        >
           Beranda
         </a>
       </Typography>
@@ -35,7 +38,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-base drop-shadow-lg">
+        <a href="#about" className="flex items-center text-base drop-shadow-lg">
           Tentang
         </a>
       </Typography>
@@ -45,7 +48,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-base drop-shadow-lg">
+        <a href="#blog" className="flex items-center text-base drop-shadow-lg">
           Blog
         </a>
       </Typography>
@@ -55,7 +58,7 @@ export function StickyNavbar() {
         color="black"
         className="p-1 poppins-semibold"
       >
-        <a href="#" className="flex items-center text-base drop--lg">
+        <a href="#data" className="flex items-center text-base drop--lg">
           Data
         </a>
       </Typography>

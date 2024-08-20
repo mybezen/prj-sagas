@@ -37,7 +37,10 @@ export default function IconLabelTabs() {
         src={WaveIcon}
         alt="Wave Icon"
       />
-      <div className="flex flex-col items-center px-5 lg:pt-24 lg:pb-32 py-10 lg:py-24 pb-16 bg-gradient-to-b from-sky-bl to-dr-bl">
+      <div
+        className="flex flex-col items-center px-5 lg:pt-24 lg:pb-32  py-10 lg:py-24 pb-16 bg-gradient-to-b from-sky-bl to-dr-bl"
+        id="blog"
+      >
         <h1 className="text-2xl lg:text-4xl font-bold poppins-bold pb-1">
           Kenali Penyakit Tidak Menular
         </h1>
