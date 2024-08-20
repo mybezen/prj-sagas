@@ -10,6 +10,7 @@ import Introduction from '../sections/Introduction';
 import Reason from '../sections/Reason';
 import Diagram from '../sections/Diagram';
 import OurTeam from '../sections/OurTeam';
+import LandingPage from '../sections/LandingPage';
 
 function Home() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function Home() {
       <StickyNavbar />
 
       <div className="scrollable-container">
+        <LandingPage />
         <TextBlock />
         <Introduction />
         <IconLabelTabs />
