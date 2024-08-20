@@ -1,5 +1,8 @@
 import { Typography } from "@material-tailwind/react";
 
+//Icon
+import CloudFooter from '../assets/CloudFoot.svg'
+
 const LINKS = [
   {
     title: "Daftar Konten",
@@ -11,7 +14,7 @@ const LINKS = [
   },
   {
     title: "Credit",
-    items: ["Freepik"],
+    items: ["Freepik", "Bgjar"],
   },
 ];
 
@@ -20,7 +23,8 @@ const currentYear = new Date().getFullYear();
 export function FooterWithSocialLinks() {
   return (
     <footer className="relative w-full">
-      <div className="pt-12 mx-auto w-full max-w-full px-8 ">
+      <img className=" w-full" src={CloudFooter} alt="" />
+      <div className="pt-12 mx-auto w-full max-w-full px-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h5" className="mb-6 poppins-semibold-italic">
             VitalMotion
@@ -96,7 +100,7 @@ export function FooterWithSocialLinks() {
             className="mb-4 text-center poppins-regular text-black-900 md:mb-0"
           >
             &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">VitalMotion</a>. All
+            <a href="https://material-tailwind.com/">Peintagons</a>. All
             Rights Reserved.
           </Typography>
           

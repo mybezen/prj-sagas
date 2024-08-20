@@ -1,6 +1,6 @@
 import { BarChart } from '@mui/x-charts/BarChart';
 
-export default function CustomLabels() {
+export default function DiagramPenyebabUtama() {
   return (
     <div className='container flex flex-col items-center'>
     <BarChart

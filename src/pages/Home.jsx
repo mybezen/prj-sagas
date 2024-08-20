@@ -7,10 +7,10 @@ import LandingPage from '../sections/LandingPage';
 import TextBlock from '../sections/TextBlock';
 import Information from '../sections/Information';
 import IconLabelTabs from '../components/Tabs';
-import CustomLabels from '../components/Charts';
 import Introduction from '../sections/Introduction';
 import Reason from '../sections/Reason';
-import OurTeam from '../sections/OurTeam';
+import Diagram from '../sections/Diagram';
+import { CarouselCustomArrows } from '../components/CardCarousel';
 
 function Home() {
   useEffect(() => {
@@ -32,8 +32,8 @@ function Home() {
         <IconLabelTabs />
         <Information />
         <Reason />
-        <CustomLabels />
-        <OurTeam />
+        <Diagram />
+        <CarouselCustomArrows/>
         <FooterWithSocialLinks />
       </div>
     </div>
