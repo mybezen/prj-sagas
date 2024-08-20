@@ -19,7 +19,7 @@ function Introduction() {
       data-aos-easing="ease-in-sine"
     >
       <div className="lg:w-1/2 flex flex-col justify-center items-center">
-        <div className="w-9/12 bg-[#A0DEFF] lg:bg-white p-10 lg:mb-20 mb-10">
+        <div className="w-9/12 lg:bg-lune-blue lg:hover:bg-blue-500 duration-300 p-10 lg:mb-20 mb-10 lg:border-none border-4 border-gray-200">
           <h2 className="lg:text-3xl text-2xl poppins-bold">Kesehatan Fisik</h2>
           <p className="lg:text-xl text-lg">
             Kondisi yang dimiliki tubuh manusia yang mana setiap organ atau
@@ -28,7 +28,7 @@ function Introduction() {
             objektif tidak tampak sakit.
           </p>
         </div>
-        <div className=" bg-lime-gr lg:bg-[#A0DEFF] w-9/12 p-10">
+        <div className="border-4 lg:border-none border-gray-200 w-9/12 p-10">
           <h2 className="lg:text-3xl text-2xl poppins-bold">Aktivitas Fisik</h2>
           <p className="lg:text-xl text-lg">
             Kegiatan tubuh yang menggerakan otot dan menghasilkan energi dan

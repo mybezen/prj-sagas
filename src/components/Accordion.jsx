@@ -104,7 +104,7 @@ function AccordionPencegahan1() {
           Aktivitas fisik ringan
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base poppins-semibold">
+          <p className="text-base poppins-regular">
             Berjalan santai di rumah, kantor, atau pusat perbelanjaan, duduk
             bekerja di depan komputer, membaca, menulis, menyetir,
             mengoperasikan mesin dengan posisi duduk atau berdiri, berdiri
@@ -128,7 +128,7 @@ function AccordionPencegahan2() {
         Olahraga ringan
       </AccordionHeader>
       <AccordionBody>
-        <p className="text-base poppins-semibold">
+        <p className="text-base poppins-regular">
           Jalan cepat di sekitar halaman atau di dalam rumah selama 30-45 menit
           per hari, naik turun tangga di rumah selama 10-15 menit, bermain hula
           hoop, wall push up, squat, jumping jacks.
@@ -149,7 +149,7 @@ function AccordionPencegahan3() {
         Menjaga Pola Makan
       </AccordionHeader>
       <AccordionBody>
-        <p className="text-base poppins-semibold">
+        <p className="text-base poppins-regular">
           Untuk menjaga pola makan sehat, rencanakan menu mingguan, pilih
           makanan bergizi, dan perhatikan ukuran porsi. Minum cukup air dan
           makan secara teratur, sesuai sinyal tubuh. Nikmati makanan dengan
@@ -174,7 +174,7 @@ function AccordionPencegahan4() {
           Menjaga Pola Tidur
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-base poppins-semibold">
+          <p className="text-base poppins-regular">
             Untuk menjaga pola tidur yang baik, tidurlah dan bangun pada waktu
             yang sama setiap hari, buat rutinitas malam yang menenangkan, dan
             hindari layar elektronik sebelum tidur. Atur kamar tidur agar

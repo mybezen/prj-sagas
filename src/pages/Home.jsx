@@ -30,6 +30,7 @@ function Home() {
         <IconLabelTabs />
         <Information />
         <Reason />
+        <Diagram />
         <OurTeam />
         <FooterWithSocialLinks />
       </div>
